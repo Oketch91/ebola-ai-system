@@ -9,6 +9,7 @@ Online, the replay opens with ?view=replay at the end of the app's address.
 import json
 import os
 import sys
+from datetime import date
 
 import altair as alt
 import numpy as np
@@ -27,15 +28,6 @@ P = Params()
 DATE_FMT = "%a %d %b %Y"                    # e.g. Tue 03 Nov 2026
 
 
-def vline1(date, label, color="black"):
-    """Vertical dashed line with its label written vertically beside it."""
-    df = pd.DataFrame({"d": [pd.Timestamp(date)], "label": [label]})
-    rule = alt.Chart(df).mark_rule(color=color, strokeDash=[4, 4]).encode(x="d:T")
-    text = alt.Chart(df).mark_text(angle=270, align="right", baseline="bottom", dy=-4,
-                                   color=color, fontSize=12).encode(
-        x="d:T", y=alt.value(4), text="label:N")
-    return rule + text
-
 def vline(date, label, color="black", y=None):
     """Vertical dashed line with its label written vertically beside it.
     y: where to centre the label, in the chart's own units (e.g. 0.5 for a probability);
@@ -46,6 +38,7 @@ def vline(date, label, color="black", y=None):
                                    baseline="bottom", dy=-4, color=color, fontSize=12).encode(
         x="d:T", y=alt.datum(y) if y is not None else alt.value(4), text="label:N")
     return rule + text
+
 
 # ---------------------------------------------------------------- data
 def read_csv(path):
@@ -86,6 +79,7 @@ except Exception:
     SECRETS = {}
 if SECRETS.get("ANTHROPIC_API_KEY"):
     os.environ["ANTHROPIC_API_KEY"] = SECRETS["ANTHROPIC_API_KEY"]
+
 if view.startswith("Replay"):
     hist = read_csv("results/replay_history.csv")
     ll_all = read_csv("data/replay_linelist.csv")
@@ -114,6 +108,7 @@ else:
     asof = latest["cutoff"]
     row = hist[hist["cutoff"] == asof].iloc[0].to_dict()
     curve = (latest.get("curve_days"), latest.get("curve_p")) if "curve_days" in latest else None
+
 if view == "Live":
     _mtime = os.path.getmtime("results/latest.json") if os.path.exists("results/latest.json") else 0
 
@@ -128,7 +123,6 @@ st.sidebar.caption("Model: SEIHDR, Bayesian fit to confirmed cases by setting. "
                    "Transmission rates outside quarantine from the 1995 Kikwit outbreak.")
 
 # ---- Footer at the bottom of the side panel (edit the text below) ----
-from datetime import date
 FOOTER_TEXT = f"© {date.today().year} USIU-Africa. All rights reserved."
 st.sidebar.divider()
 st.sidebar.caption(FOOTER_TEXT)
@@ -168,6 +162,10 @@ if num("date_P_over_095"):
                f"0.95 on **{row['date_P_over_095']}** and 0.99 on **{row['date_P_over_099']}** "
                f"(the WHO 42-day rule would declare the end on "
                f"{(pd.Timestamp(row['last_onset']) + pd.Timedelta(days=42)).date()}).")
+    p42 = num("P_over_at_42_days")
+    if p42 is not None:
+        st.warning(f"On the date WHO would declare the outbreak over, the model estimates a "
+                   f"{1 - p42:.0%} probability that transmission is still continuing.")
 st.caption("Rc is informed by the absence of cases among quarantined contacts, so early "
            "values mostly reflect prior assumptions and become precise as quarantine days pass "
            "without a new case.")
@@ -213,12 +211,19 @@ with tabs[2]:
             x=alt.X("date:T", title="Date", axis=alt.Axis(format="%b %d")),
             y=alt.Y("p:Q", title="P(transmission has ended)", scale=alt.Scale(domain=[0, 1])))
         d42 = pd.Timestamp(row["last_onset"]) + pd.Timedelta(days=42)
-        st.altair_chart(ch + vline(d42, f"WHO 42-day declaration: {d42.strftime(DATE_FMT)}", "red", y=0.5),
-                width="stretch")
+        layers = ch + vline(d42, f"WHO 42-day declaration: {d42.strftime(DATE_FMT)}", "red", y=0.5)
+        p42 = num("P_over_at_42_days")
+        if p42 is not None:
+            layers += alt.Chart(pd.DataFrame({"d": [d42], "p": [p42]})).mark_point(
+                color="red", filled=True, size=70).encode(
+                x="d:T", y="p:Q",
+                tooltip=[alt.Tooltip("d:T", title="WHO declaration", format=DATE_FMT),
+                         alt.Tooltip("p:Q", title="P(transmission has ended)", format=".2f")])
+        st.altair_chart(layers, width="stretch")
         st.caption(f"Assumes no new case after {pd.Timestamp(asof).strftime(DATE_FMT)}. "
-           f"Last onset {pd.Timestamp(row['last_onset']).strftime(DATE_FMT)}; "
-           "red dashed line: earliest date when World Health Organization (WHO) would declare the outbreak over "
-           "(42 days after the last case, if no new case occurs).")
+                   f"Last onset {pd.Timestamp(row['last_onset']).strftime(DATE_FMT)}; "
+                   "red dashed line: earliest date when the World Health Organization (WHO) would "
+                   "declare the outbreak over (42 days after the last case, if no new case occurs).")
     else:
         st.write("Available once the first secondary case has been confirmed.")
 
