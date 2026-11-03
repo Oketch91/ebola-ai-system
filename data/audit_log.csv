@@ -1,0 +1,10 @@
+timestamp,analyst,report_date,source,decision,case_id,confirm_date,setting,evidence,issues
+2026-11-03T05:41:18,auto,2026-10-06,MoH,approve,K01,2026-10-05,imported,A sample collected on 5 October tested positive for Bundibugyo virus.,
+2026-11-03T05:41:21,auto,2026-10-14,MoH,approve,K02,2026-10-14,household,The patient is a relative of the first case who has been in quarantine since 6 October. He developed fever yesterday and was isolated immediately; his sample tested positive today.,
+2026-11-03T05:41:25,auto,2026-10-16,MoH,approve,K03,2026-10-16,household,"One additional case of Ebola disease was confirmed today in a 65-year-old woman, a family member of the first patient. The case was already in quarantine and reported symptoms on 13 October.",
+2026-11-03T05:41:31,auto,2026-10-17,MoH,approve,K04,2026-10-17,healthcare,Three are health-care workers who cared for the first patient before he was diagnosed,
+2026-11-03T05:41:31,auto,2026-10-17,MoH,approve,K05,2026-10-17,healthcare,Three are health-care workers who cared for the first patient before he was diagnosed,
+2026-11-03T05:41:31,auto,2026-10-17,MoH,approve,K06,2026-10-17,healthcare,Three are health-care workers who cared for the first patient before he was diagnosed,
+2026-11-03T05:41:31,auto,2026-10-17,MoH,approve,K07,2026-10-17,household,one is a household contact,
+2026-11-03T05:41:35,auto,2026-10-18,MoH,approve,K08,2026-10-18,healthcare,A further case has been confirmed in a health-care worker who was among the quarantined contacts of the first patient.,
+2026-11-03T05:41:39,auto,2026-10-19,MoH,approve,K09,2026-10-19,household,"one new case of Ebola disease, a relative of the first patient who was under quarantine",

@@ -1,0 +1,45 @@
+[
+  {"name": "WHO Disease Outbreak News", "type": "sequence",
+   "url_template": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON{n}",
+   "start": 619, "max_gap": 3,
+   "must_contain": ["Kenya"], "any_of": ["Ebola", "Bundibugyo"], "enabled": true,
+   "note": "Numbered reports; DON619 was the first to mention Kenya. The listing page is built by JavaScript, so numbers are tried in turn."},
+
+  {"name": "WHO AFRO Kenya news", "type": "page",
+   "url": "https://afro.who.int/countries/kenya/news",
+   "link_pattern": "/countries/kenya/news/[a-z0-9-]+$",
+   "must_contain": ["Kenya"], "any_of": ["Ebola", "Bundibugyo"], "enabled": true,
+   "note": "Tested: 8 items"},
+
+  {"name": "Kenya Ministry of Health, Ebola page", "type": "single",
+   "url": "https://www.health.go.ke/ebola",
+   "must_contain": [], "any_of": ["Ebola", "Bundibugyo"], "enabled": true,
+   "note": "Dedicated Ebola page; processed again whenever its text changes"},
+
+  {"name": "Kenya Ministry of Health, press releases", "type": "page",
+   "url": "https://www.health.go.ke/ebola",
+   "link_pattern": "(?i)\\.pdf($|\\?)",
+   "must_contain": [], "any_of": ["Ebola", "Bundibugyo"], "enabled": true,
+   "note": "PDF press releases linked from the Ebola page; scanned PDFs are read by Claude"},
+
+  {"name": "Kenya News Agency (government)", "type": "rss",
+   "url": "https://www.kenyanews.go.ke/feed/", "verify_ssl": false,
+   "must_contain": ["Kenya"], "any_of": ["Ebola", "Bundibugyo"], "enabled": true,
+   "note": "Site certificate is not accepted by Python, so the check is skipped for this read-only source"},
+
+  {"name": "UKHSA outbreaks under monitoring", "type": "page",
+   "url": "https://www.gov.uk/government/publications/outbreaks-under-monitoring-in-2026",
+   "link_pattern": "/outbreaks-under-monitoring-in-2026/outbreaks-under-monitoring-week-\\d+",
+   "must_contain": ["Kenya"], "any_of": ["Bundibugyo", "Ebola"], "enabled": true,
+   "note": "Tested: 15 items"},
+
+  {"name": "CDC Ebola situation summary", "type": "single",
+   "url": "https://www.cdc.gov/ebola/situation-summary/index.html",
+   "must_contain": ["Kenya"], "any_of": ["Ebola", "Bundibugyo"], "enabled": false,
+   "note": "Address to confirm before enabling"},
+
+  {"name": "ECDC Ebola outbreak page", "type": "single",
+   "url": "https://www.ecdc.europa.eu/en/ebola-virus-disease",
+   "must_contain": ["Kenya"], "any_of": ["Ebola", "Bundibugyo"], "enabled": false,
+   "note": "Address to confirm before enabling"}
+]

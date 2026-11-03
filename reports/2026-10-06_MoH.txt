@@ -1,0 +1,8 @@
+[EXAMPLE TEXT FOR TESTING - NOT AN OFFICIAL RELEASE]
+The Ministry of Health confirms a case of Ebola disease (Bundibugyo virus) in Nairobi.
+The patient, a Kenyan national resident in the Democratic Republic of the Congo, arrived
+in Nairobi on 3 October 2026 after travelling through Uganda. He was admitted to hospital
+and died on 5 October. A sample collected on 5 October tested positive for Bundibugyo virus.
+A safe and dignified burial has been conducted. Contact tracing has begun and 48 contacts
+have been listed and placed under follow-up.
+Total confirmed cases: 1. Deaths: 1.

@@ -1,0 +1,20 @@
+2026-11-03 05:34 Live line list created from data/kenya_linelist.csv
+2026-11-03 05:35 WHO Disease Outbreak News 2026-10-08: 0 new case(s) found, 0 added, 0 held, 0 outcome update(s); stated total None, deaths None
+2026-11-03 05:35 WHO Disease Outbreak News 2026-10-23: 0 new case(s) found, 0 added, 0 held, 0 outcome update(s); stated total 9, deaths 1
+2026-11-03 05:35 WHO AFRO Kenya news 2026-11-03: 0 new case(s) found, 0 added, 0 held, 0 outcome update(s); stated total None, deaths None
+2026-11-03 05:35 WHO AFRO Kenya news 2026-11-03: 0 new case(s) found, 0 added, 0 held, 0 outcome update(s); stated total None, deaths None
+2026-11-03 05:35 WHO AFRO Kenya news 2026-11-03: 0 new case(s) found, 0 added, 0 held, 0 outcome update(s); stated total 1, deaths 1
+2026-11-03 05:35 WHO AFRO Kenya news 2026-11-03: 0 new case(s) found, 0 added, 0 held, 0 outcome update(s); stated total None, deaths None
+2026-11-03 05:36 WHO AFRO Kenya news 2026-11-03: 0 new case(s) found, 0 added, 0 held, 0 outcome update(s); stated total None, deaths None
+2026-11-03 05:36 WHO AFRO Kenya news 2026-11-03: 0 new case(s) found, 0 added, 0 held, 0 outcome update(s); stated total 3, deaths 1
+2026-11-03 05:36 WHO AFRO Kenya news 2026-11-03: 0 new case(s) found, 0 added, 0 held, 0 outcome update(s); stated total 9, deaths 2
+2026-11-03 05:36 Kenya Ministry of Health, Ebola page 2026-11-03: 0 new case(s) found, 0 added, 0 held, 0 outcome update(s); stated total None, deaths None
+2026-11-03 05:37 UKHSA outbreaks under monitoring 2026-10-06: 0 new case(s) found, 0 added, 0 held, 0 outcome update(s); stated total 1, deaths 1
+2026-11-03 05:37 UKHSA outbreaks under monitoring 2026-10-14: 0 new case(s) found, 0 added, 0 held, 0 outcome update(s); stated total 2, deaths 1
+2026-11-03 05:38 UKHSA outbreaks under monitoring 2026-10-20: 0 new case(s) found, 0 added, 0 held, 0 outcome update(s); stated total 9, deaths 1
+2026-11-03 05:38 UKHSA outbreaks under monitoring 2026-10-26: 0 new case(s) found, 0 added, 0 held, 0 outcome update(s); stated total 9, deaths 2
+2026-11-03 05:38 Pass complete: 14 relevant report(s), 0 case(s) added, 0 held, 0 outcome update(s); live line list holds 9 cases; 0 report(s) awaiting review
+2026-11-03 05:38 Estimates for 2026-11-03: 9 cases; Rc 0.14 (0.05-0.57); incubation 13.4 days; P(outbreak over) 0.74, 0.95 on 2026-11-26, 0.99 on 2026-12-19
+2026-11-03 06:18 Pass complete: 0 relevant report(s), 0 case(s) added, 0 held, 0 outcome update(s); live line list holds 9 cases; 0 report(s) awaiting review
+2026-11-03 06:18 Filling in estimates for 28 past day(s); this takes about 5 minute(s), once
+2026-11-03 06:25 History complete: 28 past day(s) added

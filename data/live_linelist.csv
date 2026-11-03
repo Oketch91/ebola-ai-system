@@ -1,0 +1,10 @@
+case_id,role,setting,confirm_date,onset_date,listed_contact,outcome,outcome_date,description,source
+K01,index,imported,2026-10-05,,no,died,2026-10-05,"40-year-old man, Kenyan resident in DRC; imported index case; died 5 Oct",WHO AFRO 2026-10-06
+K02,secondary,household,2026-10-14,2026-10-13,yes,,,"39-year-old man, close family member of the index case",Kenya MoH
+K03,secondary,household,2026-10-16,2026-10-13,yes,died,2026-10-23,"65-year-old woman, close relative of the index case; in quarantine since 6 Oct",Kenya MoH; death reported 2026-10-23
+K04,secondary,household,2026-10-17,,yes,,,"man, close male relative of the index case",Kenya MoH
+K05,secondary,healthcare,2026-10-17,,yes,,,health worker who cared for the index case 3-4 Oct,Kenya MoH
+K06,secondary,healthcare,2026-10-17,,yes,,,health worker who cared for the index case 3-4 Oct,Kenya MoH
+K07,secondary,healthcare,2026-10-17,,yes,,,health worker who cared for the index case 3-4 Oct,Kenya MoH
+K08,secondary,healthcare,2026-10-18,,yes,,,health worker among quarantined contacts of the index case,Kenya MoH
+K09,secondary,household,2026-10-19,,yes,,,"relative of the index case, under quarantine",Kenya MoH

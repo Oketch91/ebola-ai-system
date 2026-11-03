@@ -1,0 +1,10 @@
+case_id,role,setting,confirm_date,onset_date,listed_contact,outcome,outcome_date,description,source
+K01,index,imported,2026-10-05,,unknown,died,2026-10-05,,MoH 2026-10-06 [auto]
+K02,secondary,household,2026-10-14,2026-10-13,yes,,,,MoH 2026-10-14 [auto]
+K03,secondary,household,2026-10-16,2026-10-13,yes,,,,MoH 2026-10-16 [auto]
+K04,secondary,healthcare,2026-10-17,,yes,,,,MoH 2026-10-17 [auto]
+K05,secondary,healthcare,2026-10-17,,yes,,,,MoH 2026-10-17 [auto]
+K06,secondary,healthcare,2026-10-17,,yes,,,,MoH 2026-10-17 [auto]
+K07,secondary,household,2026-10-17,,yes,,,,MoH 2026-10-17 [auto]
+K08,secondary,healthcare,2026-10-18,,yes,,,,MoH 2026-10-18 [auto]
+K09,secondary,household,2026-10-19,,yes,,,,MoH 2026-10-19 [auto]
