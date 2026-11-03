@@ -27,7 +27,7 @@ P = Params()
 DATE_FMT = "%a %d %b %Y"                    # e.g. Tue 03 Nov 2026
 
 
-def vline(date, label, color="black"):
+def vline1(date, label, color="black"):
     """Vertical dashed line with its label written vertically beside it."""
     df = pd.DataFrame({"d": [pd.Timestamp(date)], "label": [label]})
     rule = alt.Chart(df).mark_rule(color=color, strokeDash=[4, 4]).encode(x="d:T")
@@ -36,6 +36,16 @@ def vline(date, label, color="black"):
         x="d:T", y=alt.value(4), text="label:N")
     return rule + text
 
+def vline(date, label, color="black", y=None):
+    """Vertical dashed line with its label written vertically beside it.
+    y: where to centre the label, in the chart's own units (e.g. 0.5 for a probability);
+       if omitted, the label hangs from the top."""
+    df = pd.DataFrame({"d": [pd.Timestamp(date)], "label": [label]})
+    rule = alt.Chart(df).mark_rule(color=color, strokeDash=[4, 4]).encode(x="d:T")
+    text = alt.Chart(df).mark_text(angle=270, align="center" if y is not None else "right",
+                                   baseline="bottom", dy=-4, color=color, fontSize=12).encode(
+        x="d:T", y=alt.datum(y) if y is not None else alt.value(4), text="label:N")
+    return rule + text
 
 # ---------------------------------------------------------------- data
 def read_csv(path):
@@ -203,10 +213,12 @@ with tabs[2]:
             x=alt.X("date:T", title="Date", axis=alt.Axis(format="%b %d")),
             y=alt.Y("p:Q", title="P(transmission has ended)", scale=alt.Scale(domain=[0, 1])))
         d42 = pd.Timestamp(row["last_onset"]) + pd.Timedelta(days=42)
-        st.altair_chart(ch + vline(d42, f"WHO 42-day rule: {d42.strftime(DATE_FMT)}", "red"),
-                        width="stretch")
-        st.caption(f"Assumes no new case after {asof}. Last onset {row['last_onset']}; "
-                   "red dashed line: WHO 42-day rule.")
+        st.altair_chart(ch + vline(d42, f"WHO 42-day declaration: {d42.strftime(DATE_FMT)}", "red", y=0.5),
+                width="stretch")
+        st.caption(f"Assumes no new case after {pd.Timestamp(asof).strftime(DATE_FMT)}. "
+           f"Last onset {pd.Timestamp(row['last_onset']).strftime(DATE_FMT)}; "
+           "red dashed line: earliest date when World Health organization (WHO) would declare the outbreak over "
+           "(42 days after the last case, if no new case occurs).")
     else:
         st.write("Available once the first secondary case has been confirmed.")
 

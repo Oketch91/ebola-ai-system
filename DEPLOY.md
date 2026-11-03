@@ -1,7 +1,3 @@
----
----
----
-
 # Putting the system online (about 20 minutes, once)
 
 The dashboard runs on Streamlit Community Cloud; the watcher runs on GitHub Actions every 3 hours. Both are free for a public repository. Your laptop is no longer needed.
@@ -16,7 +12,7 @@ The dashboard runs on Streamlit Community Cloud; the watcher runs on GitHub Acti
     - Check on the **Code** tab that the four folders appear, and that `ebola` contains about ten `.py` files.
     - Do not upload personal files that happen to be in the folder, such as `.Rhistory`.
 4.  **Check that the watcher's schedule uploaded.** Open the **Actions** tab. If **Update outbreak data** is listed on the left, continue. If GitHub shows a "Get started with GitHub Actions" page instead, follow **"If no workflow file exists"** below, then continue with step 5.
-5.  **Settings \> Secrets and variables \> Actions \> New repository secret** Name: `ANTHROPIC_API_KEY` Secret: your API key. Click **Add secret**.
+5.  **Settings \> Secrets and variables \> Actions \> New repository secret** Name: `ANTHROPIC_API_KEY` Secret: your API key e.g. "sk-ant-...". Click **Add secret**.
 6.  **Settings \> Actions \> General \> Workflow permissions**: choose **Read and write permissions**, **Save**.
 7.  **Actions** tab \> **Update outbreak data** (left) \> **Run workflow** \> **Run workflow**. The first run takes 5-10 minutes (it fills in the daily history). A green tick means it worked. After that it runs by itself every 3 hours. Open the run and read the step "Check the official sources": a source showing "could not read source" may be blocking cloud servers.
 
