@@ -1,0 +1,10 @@
+numpy
+scipy
+pandas
+requests
+beautifulsoup4
+anthropic
+streamlit>=1.37
+altair>=5
+pypdf
+matplotlib

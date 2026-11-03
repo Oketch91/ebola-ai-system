@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.npz
+data/*_backup.csv
+data/watch_console.txt
+.streamlit/secrets.toml

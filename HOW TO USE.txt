@@ -1,0 +1,27 @@
+AI-assisted real-time Ebola disease outbreak analytics system - how to use
+
+EVERYDAY USE
+  Double-click "Start Ebola system.bat".
+  - The first time, it switches on automatic updates: Windows checks the official
+    sources every 3 hours (WHO, WHO AFRO, Kenya Ministry of Health, Kenya News Agency,
+    UKHSA), adds new cases, records deaths and refits the model by itself.
+  - It runs a check straight away and opens the live dashboard in your browser.
+  - The dashboard refreshes itself when new results arrive.
+  Updates run whenever you are logged in to this computer, even if the dashboard is closed.
+
+COLLOQUIUM / EVALUATION
+  Double-click "Start replay (colloquium).bat" for the day-by-day replay of October 2026.
+  It builds the replay the first time (about 5 minutes) and opens on a separate page.
+  After changing the files in the reports folder, double-click "Rebuild replay.bat".
+
+TO SWITCH OFF AUTOMATIC UPDATES
+  Double-click "Stop automatic updates.bat".
+
+WHERE THINGS ARE
+  data\live_linelist.csv      the line list kept up to date by the system
+  data\watch_log.txt          what the system did on each check
+  data\audit_log_live.csv     every case decision, with the supporting sentence
+  results\                    the latest estimates and their history
+
+Needs: Anaconda, the packages in requirements.txt, and the ANTHROPIC_API_KEY
+environment variable (set once with setx).
