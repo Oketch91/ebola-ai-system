@@ -217,7 +217,7 @@ with tabs[2]:
                 width="stretch")
         st.caption(f"Assumes no new case after {pd.Timestamp(asof).strftime(DATE_FMT)}. "
            f"Last onset {pd.Timestamp(row['last_onset']).strftime(DATE_FMT)}; "
-           "red dashed line: earliest date when World Health organization (WHO) would declare the outbreak over "
+           "red dashed line: earliest date when World Health Organization (WHO) would declare the outbreak over "
            "(42 days after the last case, if no new case occurs).")
     else:
         st.write("Available once the first secondary case has been confirmed.")

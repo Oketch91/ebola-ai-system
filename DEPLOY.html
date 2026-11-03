@@ -361,13 +361,13 @@ Your laptop is no longer needed.</p>
 <div id="part-a-github-code-data-and-the-3-hourly-watcher" class="section level2">
 <h2>Part A: GitHub (code, data and the 3-hourly watcher)</h2>
 <ol style="list-style-type: decimal">
-<li>Create a free account at <a href="https://github.com" class="uri">https://github.com</a></li>
-<li>Click <strong>New repository</strong>. Name:
+<li><p>Create a free account at <a href="https://github.com" class="uri">https://github.com</a></p></li>
+<li><p>Click <strong>New repository</strong>. Name:
 <code>ebola-ai-system</code>. Choose <strong>Public</strong>. Click
-<strong>Create repository</strong>.</li>
-<li>Upload the project in <strong>two batches</strong>, using
+<strong>Create repository</strong>.</p></li>
+<li><p>Upload the project in <strong>two batches</strong>, using
 <strong>Add file &gt; Upload files</strong> each time, in Chrome or
-Edge:
+Edge:</p>
 <ul>
 <li><strong>Files:</strong> select all the files in your
 <code>ebola_ai_system</code> folder (not the folders) and drag them onto
@@ -384,24 +384,43 @@ files.</li>
 <li>Do not upload personal files that happen to be in the folder, such
 as <code>.Rhistory</code>.</li>
 </ul></li>
-<li><strong>Check that the watcher’s schedule uploaded.</strong> Open
+<li><p><strong>Check that the watcher’s schedule uploaded.</strong> Open
 the <strong>Actions</strong> tab. If <strong>Update outbreak
 data</strong> is listed on the left, continue. If GitHub shows a “Get
 started with GitHub Actions” page instead, follow <strong>“If no
-workflow file exists”</strong> below, then continue with step 5.</li>
-<li><strong>Settings &gt; Secrets and variables &gt; Actions &gt; New
+workflow file exists”</strong> below, then continue with step
+5.</p></li>
+<li><p><strong>Settings &gt; Secrets and variables &gt; Actions &gt; New
 repository secret</strong> Name: <code>ANTHROPIC_API_KEY</code> Secret:
-your API key. Click <strong>Add secret</strong>.</li>
-<li><strong>Settings &gt; Actions &gt; General &gt; Workflow
+your API key, which starts with <code>sk-ant-</code>. Paste the key
+<strong>without</strong> quotation marks here (unlike the Streamlit
+secrets in step 10). Click <strong>Add secret</strong>.</p>
+<p><em>Optional: creating an API key.</em> If you do not have a key
+yet:</p>
+<ul>
+<li>Go to <a href="https://console.anthropic.com" class="uri">https://console.anthropic.com</a> and sign in (or create an
+account).</li>
+<li>Open <strong>API Keys</strong> and click <strong>Create
+Key</strong>. Give it a name, e.g. <code>ebola-ai-system</code>.</li>
+<li>Click the copy button. The key is shown <strong>only once</strong>;
+if you lose it, create a new one.</li>
+<li>Under <strong>Billing</strong>, check that the account has credits.
+New accounts may receive a small free amount; this system uses only a
+few US cents per day.</li>
+<li>Keep the key private: never put it in a file, an email or a chat. If
+it is ever exposed, delete it on the API Keys page and create a new one,
+then update it here and in step 10.</li>
+</ul></li>
+<li><p><strong>Settings &gt; Actions &gt; General &gt; Workflow
 permissions</strong>: choose <strong>Read and write
-permissions</strong>, <strong>Save</strong>.</li>
-<li><strong>Actions</strong> tab &gt; <strong>Update outbreak
+permissions</strong>, <strong>Save</strong>.</p></li>
+<li><p><strong>Actions</strong> tab &gt; <strong>Update outbreak
 data</strong> (left) &gt; <strong>Run workflow</strong> &gt; <strong>Run
 workflow</strong>. The first run takes 5-10 minutes (it fills in the
 daily history). A green tick means it worked. After that it runs by
 itself every 3 hours. Open the run and read the step “Check the official
 sources”: a source showing “could not read source” may be blocking cloud
-servers.</li>
+servers.</p></li>
 </ol>
 <div id="if-no-workflow-file-exists" class="section level3">
 <h3>If no workflow file exists</h3>

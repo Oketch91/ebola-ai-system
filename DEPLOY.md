@@ -1,3 +1,7 @@
+---
+---
+---
+
 # Putting the system online (about 20 minutes, once)
 
 The dashboard runs on Streamlit Community Cloud; the watcher runs on GitHub Actions every 3 hours. Both are free for a public repository. Your laptop is no longer needed.
@@ -5,15 +9,30 @@ The dashboard runs on Streamlit Community Cloud; the watcher runs on GitHub Acti
 ## Part A: GitHub (code, data and the 3-hourly watcher)
 
 1.  Create a free account at <https://github.com>
+
 2.  Click **New repository**. Name: `ebola-ai-system`. Choose **Public**. Click **Create repository**.
+
 3.  Upload the project in **two batches**, using **Add file \> Upload files** each time, in Chrome or Edge:
+
     - **Files:** select all the files in your `ebola_ai_system` folder (not the folders) and drag them onto the page. Click **Commit changes**.
     - **Folders:** select the folders `ebola`, `data`, `results` and `reports` (hold Ctrl and click each one) and **drag** them onto the page. Do not use the "choose your files" window: it cannot select folders. Wait until about 40 files are listed, then **Commit changes**.
     - Check on the **Code** tab that the four folders appear, and that `ebola` contains about ten `.py` files.
     - Do not upload personal files that happen to be in the folder, such as `.Rhistory`.
+
 4.  **Check that the watcher's schedule uploaded.** Open the **Actions** tab. If **Update outbreak data** is listed on the left, continue. If GitHub shows a "Get started with GitHub Actions" page instead, follow **"If no workflow file exists"** below, then continue with step 5.
-5.  **Settings \> Secrets and variables \> Actions \> New repository secret** Name: `ANTHROPIC_API_KEY` Secret: your API key e.g. "sk-ant-...". Click **Add secret**.
+
+5.  **Settings \> Secrets and variables \> Actions \> New repository secret** Name: `ANTHROPIC_API_KEY` Secret: your API key, which starts with `sk-ant-`. Paste the key **without** quotation marks here (unlike the Streamlit secrets in step 10). Click **Add secret**.
+
+    *Optional: creating an API key.* If you do not have a key yet:
+
+    - Go to <https://console.anthropic.com> and sign in (or create an account).
+    - Open **API Keys** and click **Create Key**. Give it a name, e.g. `ebola-ai-system`.
+    - Click the copy button. The key is shown **only once**; if you lose it, create a new one.
+    - Under **Billing**, check that the account has credits. New accounts may receive a small free amount; this system uses only a few US cents per day.
+    - Keep the key private: never put it in a file, an email or a chat. If it is ever exposed, delete it on the API Keys page and create a new one, then update it here and in step 10.
+
 6.  **Settings \> Actions \> General \> Workflow permissions**: choose **Read and write permissions**, **Save**.
+
 7.  **Actions** tab \> **Update outbreak data** (left) \> **Run workflow** \> **Run workflow**. The first run takes 5-10 minutes (it fills in the daily history). A green tick means it worked. After that it runs by itself every 3 hours. Open the run and read the step "Check the official sources": a source showing "could not read source" may be blocking cloud servers.
 
 ### If no workflow file exists
