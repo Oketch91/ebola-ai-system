@@ -1,0 +1,15 @@
+{
+ "id": "R0259",
+ "totals": {
+  "confirmed_cases": 3874,
+  "deaths": 1751,
+  "suspected_cases": null,
+  "contacts_under_follow_up": 18243,
+  "as_of": "2026-08-03"
+ },
+ "report_date": "2026-08-04",
+ "notes": "The existing line list is empty and the report gives only daily aggregate counts, with no individual case details (age, sex, setting, onset, contact status). No individual records were created. Daily increment for 03 Aug 2026: 72 new confirmed cases (Ituri 58: Rwampara 19, Bunia 11, Nia-Nia 8, Nizi 8, Bambu 5, Tchomia 2, Komanda 1, Lita 1, Logo 1, Mangala 1, Mongbwalu 1; Nord-Kivu 12: Katwa 9, Butembo 2, Musienene 1; Haut-Uélé 2: Isiro, both dead and confirmed by swab). Daily deaths among confirmed cases: 44 (Ituri 35, Nord-Kivu 5, Haut-Uélé 4), of which 30 were post-mortem community deaths and 14 were in treatment centres. Recoveries of the day: 22 (Ituri 21, Haut-Uélé 1). Cumulative provincial totals: Ituri 3,375 cases/1,417 deaths; Nord-Kivu 426/290 (text elsewhere says 288); Haut-Uélé 63/38; Tshopo 7/5 (1 recovered); Sud-Kivu 3/1 (2 recovered). Suspected figure of 301 is the daily count of suspects, not cumulative, so suspected_cases is null. The contacts figure is contacts under follow-up (18,243), of whom 14,300 were seen (78.4%). The report is internally inconsistent on some Nord-Kivu death counts (290 in the table vs 288 in the text). Totals are reported as stated.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:31:09+00:00"
+}

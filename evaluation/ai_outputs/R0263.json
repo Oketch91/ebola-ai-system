@@ -1,0 +1,15 @@
+{
+ "id": "R0263",
+ "totals": {
+  "confirmed_cases": 4449,
+  "deaths": 2061,
+  "suspected_cases": null,
+  "contacts_under_follow_up": 16862,
+  "as_of": "2026-08-10"
+ },
+ "report_date": "2026-08-10",
+ "notes": "The existing line list is empty, and this SitRep (No. 088, dated 10 August 2026, published 11 August 2026) gives only aggregate figures. It has no individual case records with dates, settings, roles, or descriptions, so no case-level records were created. Over the last 24 hours it reports 68 new confirmed cases (53 in Ituri, 15 in Nord-Kivu), 50 deaths (31 community, 19 intra-CTE) and 17 recoveries; cumulative recoveries are 886 and 716 patients are in isolation/CTE. Cumulative totals are 4,449 confirmed cases and 2,061 deaths across Ituri, Nord-Kivu, Haut-Uélé, Tshopo and Sud-Kivu. The contacts figure is the 16,862 contacts to follow (13,951 seen, 82.7%). No cumulative suspected-case total is given (only 389 alerts validated as suspects in the 24 hours), so suspected_cases is null. The report is dated 10 August with publication on 11 August; the 10 August date was used as report_date. Individual records for the 68 new cases would need the case-level line list from the INSP or a later report.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:34:42+00:00"
+}

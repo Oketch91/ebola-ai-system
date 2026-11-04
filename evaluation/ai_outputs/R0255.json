@@ -1,0 +1,15 @@
+{
+ "id": "R0255",
+ "totals": {
+  "confirmed_cases": 3605,
+  "deaths": 1587,
+  "suspected_cases": 374,
+  "contacts_under_follow_up": 17863,
+  "as_of": "2026-07-30"
+ },
+ "report_date": "2026-07-31",
+ "notes": "Situation report SitRep N°077 (COUSP RDC, 17th Ebola outbreak, Bundibugyo ebolavirus), reporting date 30 July 2026, published 31 July 2026. The report gives only aggregate new figures, with no individual case records, so no new_cases entries were created. Daily new confirmed cases: 73 per Table 1 and Table 2 (Ituri 52, Nord-Kivu 15, Haut-Uélé 6, Tshopo 0, Sud-Kivu 0). The highlights section says 77, and a note mentions 10 re-tests that would bring Ituri to 62; these figures are not reconciled, so the 73 from the tables is used for the breakdown. Daily deaths: 24 (Ituri 20, Nord-Kivu 4), plus 7 Haut-Uélé deaths harmonised into the cumulative total. Daily recoveries: 25 (Ituri). Because the existing line list is empty, these outcomes could not be linked to case_ids and are not in outcome_updates. Contact totals differ between the cover page (17,828 under follow-up, 13,420 seen) and Table 4 (17,863 under follow-up, 13,455 seen); Table 4 figures are used. Tshopo's 7th case (Wanie-Rukula, confirmed 29 July) is counted in the provincial total of 7 but not in the health-zone count of 49, which is pending harmonisation. Sud-Kivu reported no data for the day. Suspected cases of the day (374) are reported as a daily figure and are used as the suspected total as stated. Cumulative figures: 3,605 confirmed, 1,587 deaths (CFR 44.0%), 651 recovered, 748 in isolation.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:21:42+00:00"
+}

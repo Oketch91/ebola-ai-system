@@ -1,0 +1,15 @@
+{
+ "id": "R0257",
+ "totals": {
+  "confirmed_cases": 3748,
+  "deaths": 1657,
+  "suspected_cases": null,
+  "contacts_under_follow_up": 17472,
+  "as_of": "2026-07-31"
+ },
+ "report_date": "2026-08-02",
+ "notes": "Report is SitRep N°079 (dated 01/08/2026, published 02/08/2026); report_date uses the publication date. Totals are cumulative to 31 July 2026. The report gives 74 new confirmed cases in the last 24 hours (Ituri 49, Nord-Kivu 22, Haut-Uélé 3) and 36 new deaths, but only as aggregate counts with no individual case descriptions, onset dates, or confirmation dates per case, so no individual line-list records were created. The 'Cas suspects du jour' figure (227) is a daily count, not a cumulative total, so suspected_cases is null. Recoveries (42 new, cumulative 708) and deaths are likewise aggregate only, and the existing line list is empty, so no outcome_updates. Provincial totals: Ituri 3,278 confirmed/1,359 deaths; Nord-Kivu 400/262; Haut-Uélé 60/30; Tshopo 7/5; Sud-Kivu 3/1. Contact follow-up is 13,988 seen of 17,472 (80.1%). Some Haut-Uélé and Tshopo figures are marked as not reported for the day, and there are internal inconsistencies in the report (e.g., Ituri isolation confirmed/suspect split, Tshopo contact data dated 30 July). Individual case records would need the line-list or case-level data from the INSP.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:30:11+00:00"
+}

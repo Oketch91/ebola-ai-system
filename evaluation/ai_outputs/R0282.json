@@ -1,0 +1,15 @@
+{
+ "id": "R0282",
+ "totals": {
+  "confirmed_cases": 6041,
+  "deaths": 2911,
+  "suspected_cases": null,
+  "contacts_under_follow_up": 22463,
+  "as_of": "2026-08-29"
+ },
+ "report_date": "2026-08-29",
+ "notes": "The report gives only aggregated counts and no individual case descriptions, so no new_cases records were created. For the 24 hours to 29 August 2026 it reports 96 new confirmed cases (Ituri 61, Nord-Kivu 28, Haut-Uélé 7) and 49 deaths among confirmed cases (41 community deaths and 8 intra-CTE deaths). It also reports 39 recoveries, but these cannot be linked to case IDs because the existing line list is empty. Report date is taken from 'Date de rapportage: 29 août 2026'; the publication date is 30 August 2026. The contacts figure (22,463) is the number of contacts 'à suivre' in the 24-hour follow-up figures, so it is recorded as contacts under follow-up. The suspected_cases total is null because the report gives 320 validated suspect cases only as alert-table figures, not as a stated cumulative total. Individual line-list records would need to come from case-level data.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:37:26+00:00"
+}

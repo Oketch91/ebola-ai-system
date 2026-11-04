@@ -1,0 +1,15 @@
+{
+ "id": "R0258",
+ "totals": {
+  "confirmed_cases": 3802,
+  "deaths": 1707,
+  "suspected_cases": null,
+  "contacts_under_follow_up": 18276,
+  "as_of": "2026-07-31"
+ },
+ "report_date": "2026-08-03",
+ "notes": "No individual case records can be created. The existing line list is empty, and the report gives only aggregate counts for the last 24 hours (58 new confirmed cases: Ituri 39, Nord-Kivu 18, Haut-Uele 1; 19 recoveries; 40 deaths). It gives no per-case age, sex, setting, onset or contact status. Health-zone breakdown of the 39 Ituri cases: Rwampara 11, Bunia 9, Nizi 5, Bambu 4, Lita 4, Mongbwalu 2, Tchomia 2, Aungba 1, Nia-Nia 1. Nord-Kivu: Katwa 10, Beni 3, Musienene 2, Kalunguta 1, Vuhovi 1, Lubero 1. Haut-Uele: Isiro 1. Suspected cases are reported only as the daily figure (275), not a cumulative total, so suspected_cases is null. The header says cumulative figures are 'au 31 juillet 2026' while the body refers to the 2 August situation; as_of is taken from the header. Internal inconsistencies noted in the report: the daily death count is 37 in one place and 40 in another; Nord-Kivu daily deaths are 9 in the epidemiological section and 14 in the provincial summary, with 10 further deaths from retrospective harmonisation; the Ituri health-care worker total (140) differs from the sum by outcome (139); the Haut-Uele daily movement does not balance (45 expected vs 31 reported); and the CTE occupancy figure for Nizi and ISTM differs between sections.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:34:23+00:00"
+}

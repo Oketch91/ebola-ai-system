@@ -1,0 +1,15 @@
+{
+ "id": "R0275",
+ "totals": {
+  "confirmed_cases": 5514,
+  "deaths": 2642,
+  "suspected_cases": null,
+  "contacts_under_follow_up": 17127,
+  "as_of": "2026-08-22"
+ },
+ "report_date": "2026-08-22",
+ "notes": "The report gives only aggregate daily counts, with no individual case details, so no case records were created. In the last 24 hours (to 22 August 2026) there were 55 new confirmed cases, including 23 community deaths: Ituri 35, Nord-Kivu 16, Haut-Uélé 4. A separate correction added one confirmed case to the Haut-Uélé cumulative total, which is not among the 55 new cases. The report also states 18 recoveries (14 Ituri, 3 Nord-Kivu, 1 Tshopo) and 13 intra-CTE deaths (10 Ituri, 3 Nord-Kivu). The existing line list is empty, so these outcomes cannot be matched to case_ids. Cumulative totals are 5,514 confirmed cases and 2,642 deaths (CFR 47.9%) as of 22 August 2026. The suspected_cases total is null because the report gives only the day's figure (212 alerts validated as suspect cases), not a cumulative total. The contacts_under_follow_up figure of 17,127 is the denominator 'à suivre' for daily contact follow-up (14,277 seen), taken as the contacts currently followed. Some provinces' case figures were not allocated by health zone (A ventiler: 233 cases, 10 deaths in Ituri). Only DRC data were extracted; the report also refers to cases in Tshopo and other provinces, which were treated as DRC data.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:20:39+00:00"
+}

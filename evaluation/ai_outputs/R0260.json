@@ -1,0 +1,15 @@
+{
+ "id": "R0260",
+ "totals": {
+  "confirmed_cases": 3973,
+  "deaths": 1801,
+  "suspected_cases": null,
+  "contacts_under_follow_up": 17781,
+  "as_of": "2026-08-04"
+ },
+ "report_date": "2026-08-05",
+ "notes": "The report gives 99 new confirmed cases on 4 August 2026 (Ituri 85, Nord-Kivu 10, Haut-Uélé 4; Tshopo and Sud-Kivu 0), but only as provincial and health-zone daily counts. It has no individual case records (age, sex, setting, onset or contact status), so no case-level records were created. The 99 cases are recorded here with confirm_date 2026-08-04. The daily counts are: 52 deaths (Ituri 47, Nord-Kivu 4, Haut-Uélé 1), 27 recoveries (Ituri 25, Nord-Kivu 2), and 270 suspected cases that day (the Table 3 total is 267). Cumulative suspected cases are not stated, so suspected_cases is null. The report says the cumulative death count rose by only 50 because of a Nord-Kivu reconciliation (the narrative explains this), so the 52 daily deaths and the 50-unit cumulative increase differ. Table 3 gives 267 suspected cases, while the summary and the 270 headline figure differ. The line list is empty, so no outcome updates could be matched. Report date is taken as the publication date, 5 August 2026; the reporting date is 4 August 2026.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:31:17+00:00"
+}

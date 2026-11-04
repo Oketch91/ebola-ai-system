@@ -1,0 +1,15 @@
+{
+ "id": "R0155",
+ "totals": {
+  "confirmed_cases": 1048,
+  "deaths": 267,
+  "suspected_cases": null,
+  "contacts_under_follow_up": null,
+  "as_of": "2026-06-21"
+ },
+ "report_date": "2026-11-04",
+ "notes": "The report gives cumulative totals for DRC as of 21 June 2026 (1048 confirmed cases, 267 confirmed deaths, CFR 25.5%) across Ituri, North Kivu and South Kivu. It states 240 new confirmed cases and 75 new confirmed deaths since 14 June 2026, but no individual case records, so no new_cases entries could be extracted. No issue date for this page is stated; the 'October 2026' dates appear only on the related-publication listings, so report_date is null. Suspected cases and contacts under follow-up are not stated.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:31:22+00:00"
+}

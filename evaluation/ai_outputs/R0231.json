@@ -1,0 +1,15 @@
+{
+ "id": "R0231",
+ "totals": {
+  "confirmed_cases": 6100,
+  "deaths": 2950,
+  "suspected_cases": null,
+  "contacts_under_follow_up": null,
+  "as_of": "2026-08-30"
+ },
+ "report_date": "2026-11-04",
+ "notes": "The report gives only aggregate figures: since External Situation Report #15, a further 516 confirmed cases and 270 confirmed deaths were reported, bringing the cumulative total to 6100 confirmed cases and 2950 deaths (CFR 48.4%) as of 30 August 2026. It describes 60 affected health zones and names Biena and Manguredjipa (Nord-Kivu) and Ganga (Bas-Uélé) as newly affected, but it gives no individual case records, so no new case records or case-level outcome updates could be extracted. The report's issue date is not stated; the only dates in the text are the data cut-off (30 August 2026) and related publications listed in October 2026, so report_date is null. The report does not give suspected cases or contacts under follow-up. The existing line list is empty, so the 516 new confirmed cases could not be matched to individual records.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:37:31+00:00"
+}

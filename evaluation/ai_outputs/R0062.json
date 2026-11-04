@@ -1,0 +1,15 @@
+{
+ "id": "R0062",
+ "totals": {
+  "confirmed_cases": 3605,
+  "deaths": 1587,
+  "suspected_cases": null,
+  "contacts_under_follow_up": 13455,
+  "as_of": "2026-07-30"
+ },
+ "report_date": "2026-08-01",
+ "notes": "The report gives only aggregate DRC figures (3605 confirmed cases, 1587 deaths, 651 recovered; 151 health-worker infections, 44 deaths, 68 recoveries; 1481 new confirmed cases since 17 July). It contains no individual case records with confirmation dates, onset dates, settings or descriptions, so no new_cases records were created. The 1481 new cases are not itemised. contacts_under_follow_up uses the 13,455 contacts 'under active follow-up'; the report also states 17,863 contacts 'identified and under follow-up'. suspected_cases is not stated for DRC. The 3605 DRC total includes two cases diagnosed in DRC and treated in Germany; the France and Uganda cases are excluded as non-DRC cases. The report was issued 1 August 2026 (citable reference), with a corrigendum on 3 August that does not change DRC figures.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:33:37+00:00"
+}

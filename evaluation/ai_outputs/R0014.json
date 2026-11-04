@@ -1,0 +1,15 @@
+{
+ "id": "R0014",
+ "totals": {
+  "confirmed_cases": 3360,
+  "deaths": 1487,
+  "suspected_cases": null,
+  "contacts_under_follow_up": null,
+  "as_of": "2026-07-27"
+ },
+ "report_date": "2026-07-29",
+ "notes": "The report gives only aggregate DRC figures, with no individual case records, so no new cases could be itemised. Totals are as of 27 July 2026 (French-language figures) and are cumulative. The report states an increase of 887 confirmed cases and 488 deaths since the previous report, of which 272 confirmed cases and 174 deaths came from retrospective data reconciliation and may not reflect new infections. Provincial confirmed counts: Ituri 2,988; North Kivu 325; Haut-Uele 39; Tshopo 5; South Kivu 3. The report date is taken as 29 July 2026 (the data-as-of date for the signal); the publication itself gives only the week-30 ending date of 26 July 2026. No suspected case or contact totals are stated for DRC. The other items (Uganda, CCHF, dengue, plague) are excluded as they are not DRC cases.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:33:30+00:00"
+}

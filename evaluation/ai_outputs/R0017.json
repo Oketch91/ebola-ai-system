@@ -1,0 +1,15 @@
+{
+ "id": "R0017",
+ "totals": {
+  "confirmed_cases": 5021,
+  "deaths": 2378,
+  "suspected_cases": null,
+  "contacts_under_follow_up": null,
+  "as_of": "2026-08-16"
+ },
+ "report_date": "2026-08-16",
+ "notes": "The report gives DRC cumulative totals as of 16 August 2026: 5,021 confirmed cases and 2,378 confirmed deaths, with an increase of 572 confirmed cases and 317 deaths since the last report. It does not give individual case records, so no new_cases entries could be created with confirmation dates, settings or descriptions. The report date is inferred from the publication's week-ending date (16 August 2026) because no separate issue date is stated. Uganda figures (20 cases) were excluded as they are not DRC cases. The existing line list is empty, so the aggregate totals cannot be reconciled to individual records. Suspected cases and contacts under follow-up are not stated for DRC.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:35:44+00:00"
+}

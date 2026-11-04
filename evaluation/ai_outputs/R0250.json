@@ -1,0 +1,15 @@
+{
+ "id": "R0250",
+ "totals": {
+  "confirmed_cases": 1963,
+  "deaths": 718,
+  "suspected_cases": null,
+  "contacts_under_follow_up": 12370,
+  "as_of": "2026-07-12"
+ },
+ "report_date": "2026-07-13",
+ "notes": "The existing line list is empty and the report gives only aggregate figures, with no individual case descriptions, so no case records were created. For 12 July 2026 the report gives 31 new confirmed cases (Ituri 27, Nord-Kivu 4) and 10 notified deaths (7 community deaths in Ituri, 3 in Nord-Kivu), with no per-case dates, ages or relationships. Suspected cases are given only as the daily figure (268 suspects of the day), so suspected_cases is null. The headline box says 719 deaths, but the table and footnote give 718, so 718 is reported. Lab counts for Nord-Kivu (6 positives) differ from the 4 new cases in the epidemiological section. Recoveries (cumulative 333) are not linked to specific existing cases, and no outcome updates were possible. Tables also list 114 infected health-care/front-line workers (36 deaths) and 12 cases in Wamba, but these are cumulative and not itemized.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:32:04+00:00"
+}

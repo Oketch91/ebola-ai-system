@@ -1,0 +1,15 @@
+{
+ "id": "R0267",
+ "totals": {
+  "confirmed_cases": 4843,
+  "deaths": 2272,
+  "suspected_cases": null,
+  "contacts_under_follow_up": null,
+  "as_of": "2026-08-14"
+ },
+ "report_date": "2026-08-15",
+ "notes": "SitRep N°092/MVEBDB/14/08/2026: reporting date 14 August 2026, publication date 15 August 2026 (report_date uses publication date). The report gives only aggregate figures for the last 24 hours: 116 new confirmed cases (Ituri 85, Nord-Kivu 19, Haut-Uélé 12) and 58 deaths (38 community, 20 intra-CTE). No individual case descriptions, ages, settings, onset or contact status are given, so no individual new_cases records could be created and no outcome_updates could be matched to existing case_ids. Cumulative totals as of 14 August: 4,843 confirmed cases, 2,272 confirmed deaths, 1,006 recovered, 777 in isolation/CTE. The 116 new cases and 58 deaths are recorded here only as aggregates. The 'suspected_cases' field is null because the report gives only 403 alerts validated as suspect cases in the period, not a cumulative suspected total. The 'contacts_under_follow_up' field is null because the report gives 13,987 contacts seen out of 16,802 to follow in the last 24 hours, not a current total under follow-up. Contact follow-up rate: 83.2%.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:35:31+00:00"
+}

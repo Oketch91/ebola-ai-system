@@ -1,0 +1,15 @@
+{
+ "id": "R0018",
+ "totals": {
+  "confirmed_cases": 5656,
+  "deaths": 2715,
+  "suspected_cases": null,
+  "contacts_under_follow_up": null,
+  "as_of": "2026-08-24"
+ },
+ "report_date": "2026-11-04",
+ "notes": "The report gives only aggregate DRC figures (5,656 confirmed cases and 2,715 confirmed deaths as of 24 August 2026; an increase of 635 cases and 337 deaths since the last report). It describes no individual cases, so no case records could be extracted. The report does not state an issue date: the publication is Outbreaks under monitoring, week 34 (week ending 23 August 2026), and the Ebola item's data are as of 24 August 2026, so report_date is left null. Suspected cases and contacts under follow-up are not stated for DRC. Uganda's 20 cases are excluded as they are outside the requested country. Ituri (4,716 cases, 2,119 deaths) and the six affected provinces are noted as context only.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:36:42+00:00"
+}

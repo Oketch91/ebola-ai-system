@@ -1,0 +1,15 @@
+{
+ "id": "R0243",
+ "totals": {
+  "confirmed_cases": 5584,
+  "deaths": 2680,
+  "suspected_cases": null,
+  "contacts_under_follow_up": 22015,
+  "as_of": "2026-08-23"
+ },
+ "report_date": "2026-11-04",
+ "notes": "Weekly External Situation Report 15 (WHO AFRO), data as of 23 August 2026. The report gives no issue date, only the data date, so report_date is null. Totals are from the DRC row of the summary table (5,584 confirmed, 2,680 confirmed deaths, no probable cases) and the key figures (22,015 contacts under follow-up). The report gives no suspected-case total. The report contains only aggregate counts and health-zone or province-level figures, not individual case records, so no new line-list cases could be created. The 563 new confirmed cases and 302 deaths in the period since Sitrep #14 are aggregates, and the 154 recoveries are a cumulative national count (1,215 as of 23 August), not linked to specific cases. The text cites 5,514 confirmed cases and 2,642 deaths as of 22 August, which differs from the 23 August table figures; the 23 August figures were used. Uganda and France figures were ignored as out of scope.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:36:28+00:00"
+}

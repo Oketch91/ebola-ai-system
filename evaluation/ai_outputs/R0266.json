@@ -1,0 +1,15 @@
+{
+ "id": "R0266",
+ "totals": {
+  "confirmed_cases": 4727,
+  "deaths": 2214,
+  "suspected_cases": null,
+  "contacts_under_follow_up": 21926,
+  "as_of": "2026-08-13"
+ },
+ "report_date": "2026-08-13",
+ "notes": "The report (SitRep N°091, reporting date 13 August 2026, published 14 August 2026) gives only aggregate figures for the last 24 hours: 62 new confirmed cases (Ituri 41, Nord-Kivu 16, Haut-Uélé 4, Tshopo 1) and 30 deaths among confirmed cases (14 community, 16 intra-CTE). No individual case records (age, sex, setting, onset, contact status) are provided, so no new_cases records were created. The existing line list is empty, so no outcome updates could be matched. Cumulative national totals as of 13 August: 4,727 confirmed cases, 2,214 deaths among confirmed cases, 976 recovered, 749 patients in isolation/CTE. Suspected_cases is null because the report gives only daily alert figures (330 validated suspects in the last 24 hours), not a cumulative total. contacts_under_follow_up is taken from '18 113 vus sur 21 926 à suivre' (contact follow-up for the day). A new health zone (Tshopo) was affected, bringing the total to 55 of 151 health zones in 6 provinces. The report's Tshopo cumulative count (11) and the 1 new case are consistent with the stated '11e cas confirmé' in the Tshopo health zone.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:35:18+00:00"
+}

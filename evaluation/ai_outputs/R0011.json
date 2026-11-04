@@ -1,0 +1,15 @@
+{
+ "id": "R0011",
+ "totals": {
+  "confirmed_cases": 1708,
+  "deaths": 580,
+  "suspected_cases": null,
+  "contacts_under_follow_up": null,
+  "as_of": "2026-07-06"
+ },
+ "report_date": "2026-11-04",
+ "notes": "The report gives DRC cumulative totals as of 6 July 2026: 1,708 confirmed cases and 580 confirmed deaths, with provincial counts of Ituri 1,214, North Kivu 116 and South Kivu 3. It also states an increase of 375 confirmed cases and 181 deaths since the last report. These are aggregate figures, not individual case records, so no new_cases could be created. The publication is Outbreaks under Monitoring week 27 (week ending 5 July 2026), but no issue date is stated, so report_date is null. Suspected cases and contacts under follow-up are not given for DRC. Uganda figures (20 confirmed cases) were ignored as they are outside the requested country.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:31:56+00:00"
+}

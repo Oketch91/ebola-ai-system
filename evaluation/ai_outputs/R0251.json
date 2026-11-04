@@ -1,0 +1,15 @@
+{
+ "id": "R0251",
+ "totals": {
+  "confirmed_cases": 2536,
+  "deaths": 1033,
+  "suspected_cases": null,
+  "contacts_under_follow_up": 13936,
+  "as_of": "2026-07-21"
+ },
+ "report_date": "2026-07-21",
+ "notes": "The report gives only aggregate daily figures for DRC and no individual case descriptions, so no case records were created. Last 24 h: 63 new confirmed cases (Ituri 46, Nord-Kivu 12, Haut-Uele 5, Sud-Kivu 0, Tshopo 0), 34 new confirmed deaths (Ituri 26, Nord-Kivu 6, Haut-Uele 2) and 24 new recoveries (Ituri 23, Nord-Kivu 1). Cumulative recoveries are 506. The 306 suspected cases are the figure for the day ('cas suspects du jour'), not a cumulative total, so suspected_cases is null. Table 1 gives a national total of 2,531 confirmed cases while the cover page and Table 2 give 2,536; the headline figure 2,536 is reported here. The report was dated 21 July 2026 ('date de rapportage') and published 22 July 2026. Contacts under follow-up are 13,936 (10,765 seen, 77.2%). The line list was empty, so no outcome updates were possible.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:33:17+00:00"
+}

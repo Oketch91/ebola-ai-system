@@ -1,0 +1,15 @@
+{
+ "id": "R0284",
+ "totals": {
+  "confirmed_cases": 6186,
+  "deaths": 3007,
+  "suspected_cases": null,
+  "contacts_under_follow_up": null,
+  "as_of": "2026-08-31"
+ },
+ "report_date": "2026-08-31",
+ "notes": "SitRep N°109 (DRC INSP, 17th EVD outbreak). Report dated 31 August 2026, published 1 September 2026; report_date uses the reporting date. The report gives only aggregate new cases, not individual case records, so no new_cases are itemised. Aggregate 24h new confirmed cases: 86 (Ituri 49, Nord-Kivu 32, Haut-Uélé 5; Tshopo, Sud-Kivu and Bas-Uélé 0). Of these, 43 were community deaths (Swab+) and 14 were intra-CTE confirmed deaths (10 Ituri, 2 Haut-Uélé, 2 Nord-Kivu); total deaths of the day 57. Recoveries in the last 24h: 26 (16 Ituri, 6 Nord-Kivu, 4 Haut-Uélé); the cumulative recovered count is 1,409. Cumulative figures: 6,186 confirmed, 3,007 deaths (CFR 48.6%), 830 patients in isolation/CTE. The line list is empty, so no outcome updates are possible. Cumulative suspected cases are not stated (only 454 validated suspects in the 24h period), so suspected_cases is null. Contact follow-up: 88.0% of contacts seen in 24h (22,499 of 25,560); the 25,560 figure is a 24h denominator and is not stated as a cumulative number under follow-up, so contacts_under_follow_up is null. Laboratory positivity is reported per province (Ituri 19.2%, Nord-Kivu 14.2%, Haut-Uélé 27.7%).",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:37:49+00:00"
+}

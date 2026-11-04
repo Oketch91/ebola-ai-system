@@ -1,0 +1,15 @@
+{
+ "id": "R0277",
+ "totals": {
+  "confirmed_cases": 5656,
+  "deaths": 2715,
+  "suspected_cases": null,
+  "contacts_under_follow_up": 24106,
+  "as_of": "2026-08-24"
+ },
+ "report_date": "2026-08-25",
+ "notes": "The report gives only aggregate figures and no individual case records, so no new_cases entries were created. Data are as of 24 August 2026 (the 'Date de rapportage'); the report was published 25 August 2026, which is used as report_date. In the last 24 hours: 72 new confirmed cases (Ituri 61, Nord-Kivu 7, Haut-Uélé 3, Bas-Uélé 1), including 18 community deaths (Swab+). The Ganga health zone in Bas-Uélé is newly affected. 30 patients were declared recovered (23 Ituri, 4 Nord-Kivu, 3 Haut-Uélé), and 17 intra-CTE deaths were recorded (16 Ituri, 1 Haut-Uélé). These are daily counts for the period, not linked to individual line-list cases, so no outcome_updates were made. The cumulative suspected-case total is not stated (only 311 validated suspects in the last 24 hours), so suspected_cases is null. Contacts under follow-up is the 24,106 contacts listed for follow-up; the report also gives 19,495 seen (80.9%). The report also lists 792 patients in isolation/CTE and 1,245 cumulative recoveries, which are not in the requested totals fields.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:36:51+00:00"
+}

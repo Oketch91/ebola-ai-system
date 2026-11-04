@@ -1,0 +1,15 @@
+{
+ "id": "R0006",
+ "totals": {
+  "confirmed_cases": 363,
+  "deaths": 62,
+  "suspected_cases": null,
+  "contacts_under_follow_up": null,
+  "as_of": "2026-06-02"
+ },
+ "report_date": "2026-06-02",
+ "notes": "The report gives only aggregate DRC totals (363 confirmed cases, 62 deaths, as of 2 June 2026) and does not describe individual cases, so no line-list records can be created. It states an increase of 242 confirmed cases and 45 deaths since the last report, with provincial breakdowns: Ituri 341, North Kivu 19, South Kivu 3. The report does not state suspected cases or contacts under follow-up for DRC. The publication is titled week 22 (week ending 31 May 2026) but its data are current to 2 June 2026, so 2 June is used as the report date. The Andes hantavirus item and the Uganda figures are not DRC data and were ignored.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:30:37+00:00"
+}

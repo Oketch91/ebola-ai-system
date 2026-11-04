@@ -1,0 +1,15 @@
+{
+ "id": "R0247",
+ "totals": {
+  "confirmed_cases": 7733,
+  "deaths": 3732,
+  "suspected_cases": null,
+  "contacts_under_follow_up": 33520,
+  "as_of": "2026-09-20"
+ },
+ "report_date": "2026-11-04",
+ "notes": "The report is WHO AFRO Weekly External Situation Report 19 on Bundibugyo virus disease (BVD), a filovirus outbreak, not Zaire ebolavirus. It gives no issue date; it states only 'Data as of 20 September 2026', so report_date is null. It contains only aggregate figures and no individual case records with confirmation or onset dates, so new_cases is empty. The 7,733 confirmed cases and 3,732 deaths are cumulative totals as of 20 September 2026. The 3,687 validated suspected cases refer to the week of 14-20 September, not a cumulative suspected total, so suspected_cases is null. The 33,520 contacts are those under follow-up as of 20 September. Cumulative recoveries were 1,902 as of 20 September 2026, which is not a line-list outcome and is not in the totals schema. The report also states 47 health worker cases and 6 health worker infections in the latest week, but these are not individual records.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:37:55+00:00"
+}

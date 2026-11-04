@@ -1,0 +1,15 @@
+{
+ "id": "R0165",
+ "totals": {
+  "confirmed_cases": 1048,
+  "deaths": 267,
+  "suspected_cases": null,
+  "contacts_under_follow_up": null,
+  "as_of": "2026-06-23"
+ },
+ "report_date": "2026-06-23",
+ "notes": "The report gives DRC figures only as aggregates (by province and total), with no individual case records, so no new_cases could be created. The line list is empty, so the 1048 confirmed cases cannot be itemised from this report. Cumulative figures are from the key facts section, which states 'As of 23 June 2026'; the detailed DRC section says the data are as of 21 June, so as_of may be 2026-06-21. Contacts are given only as a percentage (70.8% under follow-up), so contacts_under_follow_up is null. The index case (a nurse who died in a Bunia healthcare facility) is described as background from a Ministry of Health statement, with no confirmation date, so it was not recorded. Provincial breakdown: Ituri 954 confirmed (216 deaths), North Kivu 91 (50 deaths), South Kivu 3 (1 death). Also reported: 75 confirmed cases among health and care workers as of 18 June (17 died), and 112 recovered. Uganda and Germany/Czechia cases are excluded as outside DRC.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:31:35+00:00"
+}

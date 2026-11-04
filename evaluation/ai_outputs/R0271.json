@@ -1,0 +1,15 @@
+{
+ "id": "R0271",
+ "totals": {
+  "confirmed_cases": 5208,
+  "deaths": 2476,
+  "suspected_cases": null,
+  "contacts_under_follow_up": null,
+  "as_of": "2026-08-18"
+ },
+ "report_date": "2026-08-18",
+ "notes": "The report (SitRep N°096, reporting date 18 Aug 2026, published 19 Aug 2026) gives only aggregate figures, with no individual case records, so no new_cases entries were created. Over the last 24 hours, 103 new confirmed cases were reported: Ituri 82, Nord-Kivu 12, Haut-Uélé 8, Bas-Uélé 1 (the new health zone Viadana), and 0 in Tshopo and Sud-Kivu. The report says 35 of these were community cases ('dont 35 communautaires'). It also reports 35 community deaths (Swab+) and 21 confirmed deaths in ETCs (intra-CTE), giving 56 total deaths among new confirmed cases. Cumulative confirmed cases are 5,208 and cumulative confirmed deaths 2,476 (CFR 47.5%). Cumulative recoveries are 1,115 (24 recovered on 18 Aug, not linked to case IDs). Patients in isolation/ETC are 730. Cumulative figures by province: Ituri 4,391 cases and 1,958 deaths; Nord-Kivu 645 and 440; Haut-Uélé 153 and 69; Tshopo 14 and 7; Sud-Kivu 3 and 1; Bas-Uélé 2 and 1. Health zones affected: 56 of 151. The figure of 22,043 contacts ('à suivre') is a daily follow-up denominator (84.0% seen in the last 24 h, 18,517 seen), not a cumulative count of contacts under follow-up, so contacts_under_follow_up is null. Suspected cases are not given as a cumulative figure (389 validated suspects is a 24-hour or period figure), so suspected_cases is null. The line list was empty, so no outcome_updates could be matched.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:35:58+00:00"
+}

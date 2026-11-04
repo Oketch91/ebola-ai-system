@@ -1,0 +1,15 @@
+{
+ "id": "R0061",
+ "totals": {
+  "confirmed_cases": 2124,
+  "deaths": 828,
+  "suspected_cases": null,
+  "contacts_under_follow_up": 12693,
+  "as_of": "2026-07-15"
+ },
+ "report_date": "2026-07-17",
+ "notes": "The report gives aggregate DRC figures only (2124 confirmed, 828 deaths, 390 recovered as of 15 July 2026; 119 confirmed health-worker infections, 61 recoveries and 36 deaths among health workers) and no individual line-list detail for the other DRC cases, so only one new case could be recorded. The 2124 DRC total includes two US citizens diagnosed in the DRC and treated in Germany. The first, a US physician evacuated in May 2026 and since recovered and discharged, is not added as a new case because the report gives no exact confirmation date for it and it may already be counted elsewhere. The confirm_date for the second case is the date German authorities informed WHO, since the report gives no exact date of confirmation in the DRC. The report gives no suspected-case count. Contacts under follow-up (12,693) is the total identified and under follow-up across Ituri, North Kivu and Tshopo as of 15 July 2026.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T05:15:54+00:00"
+}

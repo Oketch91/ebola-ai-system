@@ -1,0 +1,15 @@
+{
+ "id": "R0064",
+ "totals": {
+  "confirmed_cases": 5794,
+  "deaths": 2786,
+  "suspected_cases": null,
+  "contacts_under_follow_up": 26850,
+  "as_of": "2026-08-26"
+ },
+ "report_date": "2026-08-28",
+ "notes": "The report gives only aggregate figures for the DRC (1,129 additional confirmed cases and 602 additional confirmed deaths since 14 August, with cumulative totals as of 26 August) and no individual case records, so no new case records could be extracted. The existing line list is empty, so no outcome updates apply. Cumulative totals are taken from the report: 5,794 confirmed cases, 2,786 deaths, and 1,293 recovered (recovered is not a schema field and is not included). The suspected case total is not stated for the DRC and is set to null. The contacts figure is taken from '22 091 seen out of 26 850 to follow up' as 26,850 contacts under follow-up; the report's wording is ambiguous, so this is an interpretation. The 5,815 global total and the Uganda, Germany and France figures are excluded because they are outside the DRC scope. The report date is taken from the citable reference (28 August 2026).",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:35:23+00:00"
+}

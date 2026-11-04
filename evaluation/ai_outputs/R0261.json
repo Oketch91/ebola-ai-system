@@ -1,0 +1,15 @@
+{
+ "id": "R0261",
+ "totals": {
+  "confirmed_cases": 4294,
+  "deaths": 1960,
+  "suspected_cases": null,
+  "contacts_under_follow_up": 17141,
+  "as_of": "2026-08-08"
+ },
+ "report_date": "2026-08-09",
+ "notes": "SitRep N°086 (reporting date 08 August 2026, published 09 August 2026). The report gives only aggregate figures for the last 24 hours: 85 new confirmed cases (68 Ituri, 10 Nord-Kivu, 7 Haut-Uélé) and 29 new confirmed deaths. It does not describe individual cases (age, sex, setting, onset or confirmation date), so no individual case records could be created. Cumulative confirmed cases and deaths are 4,294 and 1,960 as of 08 August 2026. The report gives 17,141 contacts 'à suivre' (to be followed) with 84.6% seen, but does not state a cumulative suspected-case total, so suspected_cases is null. The report states 21 patients recovered in Ituri and 15 intra-treatment-centre deaths in Ituri and Nord-Kivu, but these are not linked to identifiable line-list cases, and the existing line list is empty, so no outcome updates were made. Report date is taken as the publication date; the reporting date is 08 August 2026.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:34:30+00:00"
+}

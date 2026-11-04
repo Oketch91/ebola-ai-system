@@ -1,0 +1,15 @@
+{
+ "id": "R0273",
+ "totals": {
+  "confirmed_cases": 5375,
+  "deaths": 2557,
+  "suspected_cases": null,
+  "contacts_under_follow_up": 23001,
+  "as_of": "2026-08-20"
+ },
+ "report_date": "2026-08-20",
+ "notes": "The report gives 85 new confirmed cases in the last 24 hours (Ituri 63, Nord-Kivu 17, Haut-Uélé 5) and 18 community deaths, but it gives only aggregate counts by province and health zone, with no individual case descriptions, dates or settings. No case records were created because each one would need invented fields. The existing line list is empty and cannot be matched to these aggregates. The report also gives 15 recoveries and 23 intra-CTE deaths in 24 hours by province, without linking them to identifiable cases, so no outcome_updates were made. contacts_under_follow_up is taken from '19 674 vus sur 23 001 à suivre'. The report's suspected_cases total is not stated, so it is null. The report date is the 'Date de rapportage' (20 August 2026); publication was 21 August 2026.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:36:13+00:00"
+}

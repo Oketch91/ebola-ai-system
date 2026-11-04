@@ -1,0 +1,15 @@
+{
+ "id": "R0269",
+ "totals": {
+  "confirmed_cases": 5021,
+  "deaths": 2378,
+  "suspected_cases": null,
+  "contacts_under_follow_up": 19630,
+  "as_of": "2026-08-16"
+ },
+ "report_date": "2026-08-16",
+ "notes": "The existing line list is empty, and the report gives only aggregate figures, not individual case records. In the last 24 hours it reports 76 new confirmed cases (Ituri 63, Nord-Kivu 11, Haut-Uélé 1, Tshopo 1), including 30 community deaths and 23 intra-CTE deaths. No age, sex, onset, setting or contact status is given for individual cases, so no case records were created. The 21 recoveries and the 53 deaths are also aggregates with no case IDs to match, so no outcome updates were made. Report totals: 5,021 cumulative confirmed cases and 2,378 deaths as of 16 August 2026. The report is dated 16 August 2026 (rapportage) and was published 17 August 2026. The 19,630 figure is the number of contacts 'à suivre' (to follow) in the 24-hour contact-follow-up indicator, used here as contacts under follow-up. No cumulative suspected-case total is stated, so suspected_cases is null.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:21:34+00:00"
+}

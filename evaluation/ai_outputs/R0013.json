@@ -1,0 +1,15 @@
+{
+ "id": "R0013",
+ "totals": {
+  "confirmed_cases": 2473,
+  "deaths": 999,
+  "suspected_cases": null,
+  "contacts_under_follow_up": null,
+  "as_of": "2026-07-20"
+ },
+ "report_date": "2026-11-04",
+ "notes": "The report gives only aggregate DRC figures as of 20 July 2026: 2,473 confirmed cases and 999 confirmed deaths, an increase of 462 cases and 245 deaths since the last report. Provincial breakdown: Ituri 2,202, North Kivu 247, Haut-Uele 16, Tshopo 5, South Kivu 3. No individual case records (dates, settings, descriptions) are given, so no new cases could be extracted. The report does not state an issue date; it is part of Outbreaks under Monitoring week 29 (week ending 19 July 2026), so report_date is left null. Suspected cases and contacts under follow-up are not stated for DRC. Uganda figures (20 cases, 2 deaths) were excluded as they are outside the requested country. The Chandipura virus item concerns India and was ignored.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:33:09+00:00"
+}

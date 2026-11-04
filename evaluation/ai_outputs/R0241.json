@@ -1,0 +1,15 @@
+{
+ "id": "R0241",
+ "totals": {
+  "confirmed_cases": 4381,
+  "deaths": 2011,
+  "suspected_cases": null,
+  "contacts_under_follow_up": 16183,
+  "as_of": "2026-08-09"
+ },
+ "report_date": "2026-08-09",
+ "notes": "The report gives only aggregate DRC figures, with no individual case records, so no new_cases could be extracted. Cumulative totals are 4,381 confirmed cases and 2,011 confirmed deaths (CFR 45.9%), with 579 new confirmed cases and 304 new confirmed deaths in the last 7 days. Cumulative recoveries are 869 and 704 patients were in isolation, but these are not linked to case IDs, and the existing line list is empty, so no outcome_updates were made. Health-worker infections are 155 with 45 deaths, also aggregate only. The 242 suspected cases are validated alerts from 9 August only, not a cumulative suspected total, so suspected_cases is null. Report date is taken as the data date, 9 August 2026. Figures for Uganda and France were excluded per the country rule.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:30:03+00:00"
+}

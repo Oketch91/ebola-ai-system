@@ -1,0 +1,15 @@
+{
+ "id": "R0283",
+ "totals": {
+  "confirmed_cases": 6100,
+  "deaths": 2950,
+  "suspected_cases": null,
+  "contacts_under_follow_up": 24330,
+  "as_of": "2026-08-30"
+ },
+ "report_date": "2026-08-31",
+ "notes": "The report is dated 30 August 2026 (date de rapportage) and published 31 August 2026; report_date uses the publication date. The report gives 59 new confirmed cases in the last 24 hours, but only as province-level aggregates (Ituri 44, Nord-Kivu 8, Haut-Uélé 6, Bas-Uélé 1; Tshopo and Sud-Kivu 0). It gives no individual case details (age, sex, setting, role, listed-contact status, onset), so no individual case records were created. Of the 59 new cases, 19 are community deaths (Swab+) and 20 are intra-CTE confirmed deaths (Ituri 15, Haut-Uélé 2, Nord-Kivu 2, Tshopo 1), giving 39 deaths reported that day. The report also states 17 recoveries (13 Ituri, 3 Nord-Kivu, 1 Tshopo), but these are not matched to line-list case IDs, which are not provided, so they are not recorded as outcome_updates. The suspected_cases figure is null because the report gives only 24-hour validated suspects (258) and no cumulative suspected total. contacts_under_follow_up uses the 24,330 contacts listed as 'à suivre' (21,002 seen, 86.3%). Minor inconsistency: the Ituri share of confirmed cases is given as 82.3% in one place and 82.2% in another.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:37:40+00:00"
+}

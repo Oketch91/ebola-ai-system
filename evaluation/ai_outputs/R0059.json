@@ -1,0 +1,15 @@
+{
+ "id": "R0059",
+ "totals": {
+  "confirmed_cases": 896,
+  "deaths": 232,
+  "suspected_cases": null,
+  "contacts_under_follow_up": 6367,
+  "as_of": "2026-06-17"
+ },
+ "report_date": "2026-06-19",
+ "notes": "The report gives only aggregate DRC figures (220 additional confirmed cases and 96 additional deaths since 13 June, mostly attributed to testing backlog) and no individual case descriptions, confirmation dates, or settings, so no new case records could be created. The existing line list is empty, so no outcome updates apply. DRC also reports 78 recovered patients, which is not a field in the requested schema. Uganda figures in the report were ignored per the country filter. The report's citable date is 19 June 2026, used as report_date; the figures are as of 17 June 2026. Suspected cases are not stated for DRC.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:30:41+00:00"
+}

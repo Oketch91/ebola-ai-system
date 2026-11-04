@@ -1,0 +1,15 @@
+{
+ "id": "R0253",
+ "totals": {
+  "confirmed_cases": 3262,
+  "deaths": 1437,
+  "suspected_cases": null,
+  "contacts_under_follow_up": 15498,
+  "as_of": "2026-07-26"
+ },
+ "report_date": "2026-07-27",
+ "notes": "The report gives only aggregate daily figures for the past 24 hours: 62 new confirmed cases (Ituri 53, Nord-Kivu 8, Haut-Uele 1), 32 new confirmed deaths, and 12 recoveries. It gives no individual case descriptions, ages, sexes, onset dates or contact status, so no individual new_cases records were created. The existing line list is empty, so no outcome_updates could be matched. The 326 suspected cases are a daily figure ('cas suspects du jour'), not a cumulative total, so suggested_cases is null. The 1,437 deaths include a downward harmonisation of 2 deaths in Nord-Kivu. Contacts under follow-up (15,498) is the national figure from the contact table. The report also lists 134 confirmed health-care workers and 40 health-care worker deaths nationally; these are not separate case records.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:20:44+00:00"
+}

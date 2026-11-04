@@ -1,0 +1,15 @@
+{
+ "id": "R0279",
+ "totals": {
+  "confirmed_cases": 5794,
+  "deaths": 2786,
+  "suspected_cases": null,
+  "contacts_under_follow_up": 26850,
+  "as_of": "2026-08-26"
+ },
+ "report_date": "2026-08-26",
+ "notes": "No individual case records can be extracted. The report gives only aggregate figures for the 24 hours to 26 August 2026: 81 new confirmed cases (Ituri 52, Nord-Kivu 22, Haut-Uélé 5, Tshopo 2, Sud-Kivu 0, Bas-Uélé 0), of which 35 were community deaths (Swab+) and 7 were intra-CTE deaths, giving 42 deaths on the day. Confirmed cases therefore rose from the previous total to 5,794 cumulative, with 2,786 deaths. Two new health zones were affected in Nord-Kivu: Biena and Manguredjipa. The 24 recoveries on 26 August (12 Ituri, 11 Haut-Uélé, 1 Nord-Kivu) are given only as counts, with no case identifiers, so they cannot be matched to records under outcome_updates. Cumulative recoveries are 1,293. The contacts_under_follow_up figure of 26,850 is the 'contacts à suivre' figure for the 24-hour period, not an explicit cumulative total. The report gives no cumulative suspected-case total, so suspected_cases is null. The report date is taken from 'Date de rapportage: 26 août 2026' (published 27 August 2026).",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:37:09+00:00"
+}

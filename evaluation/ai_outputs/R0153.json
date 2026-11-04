@@ -1,0 +1,15 @@
+{
+ "id": "R0153",
+ "totals": {
+  "confirmed_cases": 808,
+  "deaths": 192,
+  "suspected_cases": null,
+  "contacts_under_follow_up": null,
+  "as_of": "2026-06-14"
+ },
+ "report_date": "2026-11-04",
+ "notes": "The report gives only aggregate figures for the DRC: 258 new confirmed cases and 91 new confirmed deaths since 07 June 2026, with cumulative totals as of 14 June 2026. It does not describe individual cases, so no case records could be created. The report date is not stated in the text; the only dates given are the previous update of 07 June 2026 and the data date of 14 June 2026, and the October 2026 items are unrelated page listings. Suspected cases and contacts under follow-up are not stated. The existing line list is empty, so the 808 cumulative confirmed cases are not individually listed here.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:30:47+00:00"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "R0242",
+ "totals": {
+  "confirmed_cases": 5021,
+  "deaths": 2378,
+  "suspected_cases": null,
+  "contacts_under_follow_up": 19630,
+  "as_of": "2026-08-16"
+ },
+ "report_date": "2026-11-04",
+ "notes": "The report gives only aggregate DRC figures and no individual case records, so no new_cases are listed. The issue date is not stated; the report is 'Weekly External Situation Report 14, Data as of 16 August 2026', so report_date is null and as_of is 16 August 2026. Suspected cases are not given as a cumulative DRC total, so suspected_cases is null. Other figures in the report, not used as totals: 1,061 cumulative recoveries as of 16 August 2026 (no matching case records); 155 confirmed health-worker infections including 45 deaths (cumulative, not per-case); 751 patients in isolation; 47 of 55 health zones with active transmission in the last 21 days. The report also mentions a confirmed case and death in Bas-Uélé (Buta health zone) and a 'case and death in Bas-Uélé', but gives no dates or individual details, so no record was created. Figures for Uganda and France were excluded because they are outside the DRC.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:35:50+00:00"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "R0015",
+ "totals": {
+  "confirmed_cases": 3874,
+  "deaths": 1751,
+  "suspected_cases": null,
+  "contacts_under_follow_up": null,
+  "as_of": "2026-08-03"
+ },
+ "report_date": "2026-08-02",
+ "notes": "Report date taken as 2 August 2026, the week-ending date of Outbreaks Under Monitoring week 31; the report gives no separate issue date. DRC totals are as of 3 August 2026, from the report's statement 'As of 3 August 2026 (in French), 3,874 confirmed cases and 1,751 confirmed deaths have been reported in the DRC'. The report gives only aggregate figures, with no individual case descriptions, onset dates or settings, so no individual new_cases records could be created. It states an increase of 514 confirmed cases and 264 deaths since the last report. Provincial breakdown: Ituri 3,375; North Kivu 426; Haut-Uele 63; Tshopo 7; South Kivu 3. Suspected cases and contacts under follow-up for DRC are not stated. The Uganda figures (20 cases) are excluded because they are outside the requested country. The CCHF, mpox and SFTS items are not DRC Ebola data and were ignored.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:34:13+00:00"
+}

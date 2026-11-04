@@ -1,0 +1,15 @@
+{
+ "id": "R0060",
+ "totals": {
+  "confirmed_cases": 1460,
+  "deaths": 452,
+  "suspected_cases": null,
+  "contacts_under_follow_up": 10821,
+  "as_of": "2026-07-01"
+ },
+ "report_date": "2026-07-03",
+ "notes": "The report gives only aggregate DRC figures (1460 confirmed cases, 452 deaths, 213 recovered, as of 1 July 2026) and no individual case-level records, so no individual new cases could be extracted. The 564 new confirmed cases since 19 June, including 220 deaths, are aggregate counts with no per-case dates, settings or descriptions. The 10,821 contacts under follow-up are taken from 'As of 1 July, 10 821 contacts have been identified and are under follow-up across Ituri (8376), and North Kivu (2445)'. The report does not state a suspected case count for DRC. The French case (doctor returning from Ituri) and Uganda cases are excluded because they are outside DRC. The report also notes that some confirmed cases may be backlog samples rather than new infections, and that 17 confirmed cases are not yet assigned to a health zone.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:31:45+00:00"
+}

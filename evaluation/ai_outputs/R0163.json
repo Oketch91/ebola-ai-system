@@ -1,0 +1,15 @@
+{
+ "id": "R0163",
+ "totals": {
+  "confirmed_cases": 321,
+  "deaths": 48,
+  "suspected_cases": 116,
+  "contacts_under_follow_up": null,
+  "as_of": "2026-05-31"
+ },
+ "report_date": "2026-11-04",
+ "notes": "The report gives only aggregate DRC totals as of 31 May 2026 (321 laboratory-confirmed cases, 48 confirmed deaths, 116 suspected cases under investigation). It does not describe individual cases, so no case records were created. Because the existing line list is empty, the 321 confirmed cases are new in aggregate but cannot be itemised with confirm_date, setting, role or description. The report also states that 1077 previous suspected cases (including 246 suspected deaths) were reclassified: positives became confirmed and negatives were discarded. The report date is not stated in the text, so report_date is null. The 'octobre 2026' dates in the page footer relate to other publications and were not used.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:30:22+00:00"
+}

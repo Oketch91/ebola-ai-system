@@ -1,0 +1,15 @@
+{
+ "id": "R0010",
+ "totals": {
+  "confirmed_cases": 1333,
+  "deaths": 399,
+  "suspected_cases": null,
+  "contacts_under_follow_up": null,
+  "as_of": "2026-06-29"
+ },
+ "report_date": "2026-06-28",
+ "notes": "The report date is taken from the publication's week-ending date (week 26, ending 28 June 2026), since no separate issue date is stated; the figures are as of 29 June 2026. DRC totals are cumulative: 1,333 confirmed cases and 399 confirmed deaths (Ituri 1,214, North Kivu 116, South Kivu 3 confirmed cases). The report gives only aggregate counts and no individual case records, so no new line-list cases could be extracted. The 239 new confirmed cases and 122 deaths since the last report are increments, not individual records. Uganda figures and the CCHF items were excluded as they are outside the requested country or disease scope. Suspected cases and contacts under follow-up are not stated for DRC.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:31:50+00:00"
+}

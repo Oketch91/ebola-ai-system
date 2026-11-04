@@ -1,0 +1,15 @@
+{
+ "id": "R0152",
+ "totals": {
+  "confirmed_cases": 550,
+  "deaths": 101,
+  "suspected_cases": null,
+  "contacts_under_follow_up": null,
+  "as_of": "2026-06-07"
+ },
+ "report_date": "2026-11-04",
+ "notes": "The report gives only aggregate figures for the DRC: 229 new confirmed cases and 53 new confirmed deaths since 31 May 2026, with a cumulative 550 confirmed cases and 101 deaths as of 7 June 2026. It contains no individual case records, so no case can be itemised with a confirm_date, setting or role. The report date is not stated in this text (the related-publication listings are unrelated later reports and were ignored), so report_date is null. Suspected cases and contacts under follow-up are not stated. The line list is empty, so the 550 cumulative cases cannot be matched to existing records. Case-level data from the underlying sitrep dataset would be needed to add records.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:30:32+00:00"
+}

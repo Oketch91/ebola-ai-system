@@ -1,0 +1,15 @@
+{
+ "id": "R0008",
+ "totals": {
+  "confirmed_cases": 837,
+  "deaths": 196,
+  "suspected_cases": null,
+  "contacts_under_follow_up": null,
+  "as_of": "2026-06-15"
+ },
+ "report_date": "2026-06-15",
+ "notes": "The UKHSA signal (Bundibugyo virus disease, multi-country) gives DRC cumulative totals of 837 confirmed cases and 196 confirmed deaths as of 15 June 2026. It reports an increase of 239 confirmed cases and 81 deaths since the last report, but gives no individual case records, so no case-level new cases could be extracted. By province: Ituri 767, North Kivu 67, South Kivu 3. The report date is taken as 15 June 2026 from the signal's data date; the publication itself is week 24 ending 14 June 2026. Suspected cases and contacts under follow-up are not stated for DRC. The Uganda figures in the report were ignored as out of scope.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:31:26+00:00"
+}

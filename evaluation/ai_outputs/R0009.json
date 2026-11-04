@@ -1,0 +1,15 @@
+{
+ "id": "R0009",
+ "totals": {
+  "confirmed_cases": 1094,
+  "deaths": 277,
+  "suspected_cases": null,
+  "contacts_under_follow_up": null,
+  "as_of": "2026-06-22"
+ },
+ "report_date": "2026-11-04",
+ "notes": "The DRC figures are aggregate totals only (1,094 confirmed cases and 277 confirmed deaths as of 22 June 2026, per the report's French-language source). The report states an increase of 257 confirmed cases and 81 deaths since the last update, but gives no individual case records, so no case rows could be created. Ituri (997), North Kivu (94) and South Kivu (3) are provincial breakdowns, not case records. The report date is not explicitly stated: the publication is titled 'week 25, week ending 21 June 2026' and the Ebola data are 'as of 24 June 2026', so the issue date is unclear and is left null. Uganda cases and the French travel-associated case are excluded because they are not in DRC. The Spanish CCHF item is not relevant to DRC and is excluded. Suspected cases and contacts under follow-up are not stated for DRC.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:31:40+00:00"
+}

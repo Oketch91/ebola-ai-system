@@ -1,0 +1,15 @@
+{
+ "id": "R0256",
+ "totals": {
+  "confirmed_cases": 3674,
+  "deaths": 1621,
+  "suspected_cases": null,
+  "contacts_under_follow_up": 18508,
+  "as_of": "2026-07-31"
+ },
+ "report_date": "2026-08-01",
+ "notes": "The report gives only aggregated daily figures by province and health zone (69 new confirmed cases: Ituri 53, Nord-Kivu 12, Haut-Uélé 4; 34 new deaths; 15 recoveries). It contains no individual-level descriptions, so no individual case records were created. Cumulative recoveries are 666 nationally, with no individual case_ids to update. The 321 suspected cases are a daily figure, not a cumulative total, so suspected_cases is null. Contacts under follow-up is the total listed (18,508; 14,436 seen, 78.0%). The report_date is the publication date (01 August 2026); the reporting date is 31 July 2026, which is used as as_of. A 7th Tshopo case confirmed on 29 July in Wanie-Rukula is mentioned but excluded from the cumulative totals pending harmonisation. The Tshopo total of 7 cases is stated, so it is unclear whether that case is included in it.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:34:07+00:00"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "R0057",
+ "totals": {
+  "confirmed_cases": 515,
+  "deaths": 91,
+  "suspected_cases": null,
+  "contacts_under_follow_up": 5040,
+  "as_of": "2026-06-06"
+ },
+ "report_date": "2026-06-08",
+ "notes": "The report gives only aggregate DRC figures, with no individual case records (no per-case dates, settings or descriptions), so no new_cases records can be created. Aggregate DRC figures as of 6 June 2026: 515 confirmed cases, 91 deaths among confirmed cases, 12 recovered, 16 confirmed cases among health and care workers, 25 health zones affected (Ituri, North Kivu, South Kivu), and 5040 contacts under follow-up. Suspected cases for DRC are not stated. Many new confirmations reflect testing of a backlog of earlier samples, so onset and exposure dates cannot be inferred. Uganda figures (19 confirmed) were excluded as out of scope.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:30:27+00:00"
+}

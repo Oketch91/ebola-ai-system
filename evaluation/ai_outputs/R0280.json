@@ -1,0 +1,15 @@
+{
+ "id": "R0280",
+ "totals": {
+  "confirmed_cases": 5863,
+  "deaths": 2824,
+  "suspected_cases": null,
+  "contacts_under_follow_up": 28372,
+  "as_of": "2026-08-27"
+ },
+ "report_date": "2026-08-27",
+ "notes": "The report gives only aggregate figures for 27 August 2026 and no individual case records (no dates, settings, ages or relationships), so no case-level records were created. Per-day new confirmed cases: 69 (Ituri 43, Nord-Kivu 13, Haut-Uélé 11, Tshopo 2, Sud-Kivu 0, Bas-Uélé 0). Of these, 23 were community deaths (swab-positive). Another 15 confirmed deaths occurred in CTE (Ituri 12, Nord-Kivu 2, Haut-Uélé 1), giving 38 deaths on the day. The report also states 25 patients recovered (22 Ituri, 2 Haut-Uélé, 1 Nord-Kivu), but without case identifiers. The line list is empty, so no outcome updates could be matched. The report was dated 27 August 2026 and published 28 August 2026; report_date uses the reporting date. The contacts figure (28,372) is the number 'à suivre' (to be followed) as stated in the report. The report gives no cumulative suspected-case total, so suspected_cases is null.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:20:52+00:00"
+}

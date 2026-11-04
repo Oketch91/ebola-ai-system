@@ -1,0 +1,15 @@
+{
+ "id": "R0274",
+ "totals": {
+  "confirmed_cases": 5458,
+  "deaths": 2606,
+  "suspected_cases": null,
+  "contacts_under_follow_up": null,
+  "as_of": "2026-08-21"
+ },
+ "report_date": "2026-08-21",
+ "notes": "The report (SitRep N°099, reporting date 21 August 2026, published 22 August 2026) gives 83 new confirmed cases in the last 24 hours, but only as provincial and health-zone aggregates: Ituri 62, Nord-Kivu 18, Haut-Uélé 3. It gives no individual case descriptions (age, sex, relationship, occupation, onset date), so no individual line-list records were created, to avoid guessing. The 83 new cases include 27 community deaths (Swab+) and 22 intra-CTE deaths, which are reported as deaths among confirmed cases. The report also states 15 recoveries in the last 24 hours (9 Ituri, 4 Nord-Kivu, 2 Haut-Uélé), and 1,182 cumulative recoveries. None of these can be matched to a case because the existing line list is empty. Confirmed-case positivity was 62 of 389 samples in Ituri, 18 of 114 in Nord-Kivu and 3 of 12 in Haut-Uélé. Health-zone counts are 57 of 151 affected. The 'contacts à suivre' figure of 23,492 is a daily follow-up denominator (19,829 seen), not stated as a cumulative count of contacts currently under follow-up, so it was left null. The report gives no cumulative suspected-case total, so suspected_cases is null. The 345 validated suspected cases are new alerts for the day only.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:36:22+00:00"
+}

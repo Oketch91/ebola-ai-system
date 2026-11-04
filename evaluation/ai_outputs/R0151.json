@@ -1,0 +1,15 @@
+{
+ "id": "R0151",
+ "totals": {
+  "confirmed_cases": 321,
+  "deaths": 48,
+  "suspected_cases": 116,
+  "contacts_under_follow_up": null,
+  "as_of": "2026-05-31"
+ },
+ "report_date": "2026-11-04",
+ "notes": "The report gives only aggregate DRC figures (321 laboratory-confirmed cases, 48 confirmed deaths, as of 31 May 2026) and no individual case descriptions, so no line-list records could be created. The 216 additional confirmed cases since Sitrep #2 are also aggregate only. Report date is not stated in the text, so it is null. The 116 suspected cases are taken from 'A total of 116 suspected cases remain under investigation'. Contacts under follow-up are not stated. The related-publication entries dated October 2026 are separate reports and were not used. Uganda cases were ignored.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:30:17+00:00"
+}

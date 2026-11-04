@@ -1,0 +1,15 @@
+{
+ "id": "R0007",
+ "totals": {
+  "confirmed_cases": 598,
+  "deaths": 115,
+  "suspected_cases": null,
+  "contacts_under_follow_up": null,
+  "as_of": "2026-06-08"
+ },
+ "report_date": "2026-06-09",
+ "notes": "Report date taken as 9 June 2026, the data-current date of the Ebola signal (the publication covers week 23 ending 7 June 2026). DRC cumulative totals as of 8 June 2026: 598 confirmed cases and 115 confirmed deaths, an increase of 235 confirmed cases and 53 deaths since the last report. Provincial breakdown: Ituri 563, North Kivu 32, South Kivu 3. The report gives only aggregate counts, with no individual case descriptions, confirmation dates, onset dates or settings, so no individual case records could be created. Suspected cases and contacts under follow-up are not stated for DRC. Uganda figures (19 confirmed, 2 deaths) were excluded as they are not DRC cases. The other sections (avian influenza H5N1 in India and Bangladesh, CCHF in Pakistan, Uganda and Turkey, SFTS in Japan) do not concern DRC Ebola and were ignored.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:30:58+00:00"
+}

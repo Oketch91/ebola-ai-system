@@ -1,0 +1,15 @@
+{
+ "id": "R0016",
+ "totals": {
+  "confirmed_cases": 4449,
+  "deaths": 2061,
+  "suspected_cases": null,
+  "contacts_under_follow_up": null,
+  "as_of": "2026-08-10"
+ },
+ "report_date": "2026-11-04",
+ "notes": "The report is UKHSA Outbreaks Under Monitoring, week 32 (week ending 9 August 2026). It gives no issue date for the DRC signal beyond 'data as of 10 August 2026', so report_date is null. DRC totals are as of 10 August 2026: 4,449 confirmed cases and 2,061 confirmed deaths, an increase of 575 cases and 310 deaths since the last report, with cases in 53 health zones across 5 provinces. The report gives no individual DRC case records, so no new_cases or outcome_updates can be extracted. Suspected cases and contacts under follow-up are not stated for the DRC. The Uganda, Iraq, Kazakhstan, China, France/Spain, and India items were excluded as they are outside DRC.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:34:35+00:00"
+}

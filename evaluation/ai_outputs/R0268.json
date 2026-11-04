@@ -1,0 +1,15 @@
+{
+ "id": "R0268",
+ "totals": {
+  "confirmed_cases": 4945,
+  "deaths": 2325,
+  "suspected_cases": null,
+  "contacts_under_follow_up": null,
+  "as_of": "2026-08-15"
+ },
+ "report_date": "2026-08-15",
+ "notes": "The report gives only aggregate figures for the 24 hours to 15 August 2026: 101 new confirmed cases (Ituri 89, Nord-Kivu 8, Haut-Uélé 3, Tshopo 1), 33 community deaths confirmed by swab and 20 confirmed deaths in ETCs. It does not describe individual cases (age, sex, setting, onset or confirmation date), so no case records were created. The existing line list is empty, so no outcome updates could be matched. The 34 recoveries on 15 August are also aggregate only. Report totals are cumulative to 15 August: 4,945 confirmed cases and 2,325 confirmed deaths. Cumulative suspected cases are not stated; the 380 validated suspect alerts are a daily figure. The contact figure of 24,383 contacts 'à suivre' is a 24-hour denominator, not a stated cumulative total, so it is left null. The report date is the date of reporting (15 August 2026); publication was 16 August 2026.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:35:39+00:00"
+}

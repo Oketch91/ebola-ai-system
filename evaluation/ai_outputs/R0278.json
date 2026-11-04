@@ -1,0 +1,15 @@
+{
+ "id": "R0278",
+ "totals": {
+  "confirmed_cases": 5713,
+  "deaths": 2744,
+  "suspected_cases": null,
+  "contacts_under_follow_up": 21959,
+  "as_of": "2026-08-25"
+ },
+ "report_date": "2026-08-26",
+ "notes": "The report (SitRep N°103, data as of 25 August 2026, published 26 August 2026) gives 57 new confirmed cases in the last 24 hours (Ituri 34, Nord-Kivu 18, Haut-Uélé 5) and 11 community deaths among them, but only as provincial and health-zone aggregates. It gives no individual case records (no age, sex, setting, onset, contact status or per-case confirmation date), so no new_cases records were created to avoid guessing. The line list is empty, so these aggregate cases would all be new once case-level data is available. Outcomes: 24 recoveries (20 Ituri, 3 Nord-Kivu, 1 Haut-Uélé) and 18 intra-CTE confirmed deaths (14 Ituri, 2 Nord-Kivu, 2 Haut-Uélé) are reported, but none can be matched to a case_id, so they are not in outcome_updates. Internal inconsistency: the main text gives cumulative 5,713 confirmed cases and 2,744 deaths, while the key-messages box gives 5,656 cases and 2,715 deaths; the main-text figures were used. Contacts: 18,574 seen of 21,959 to follow in the last 24 hours (84.6%), so 21,959 is recorded as contacts under follow-up. Suspected_cases is null because only daily validated suspects (390) are given, not a cumulative total. The report also notes the last confirmed case in Sud-Kivu was on 10 June 2026.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:37:00+00:00"
+}

@@ -1,0 +1,15 @@
+{
+ "id": "R0230",
+ "totals": {
+  "confirmed_cases": 5584,
+  "deaths": 2680,
+  "suspected_cases": null,
+  "contacts_under_follow_up": null,
+  "as_of": null
+ },
+ "report_date": "2026-11-04",
+ "notes": "The report gives only aggregate figures and no individual case records, so no new cases could be extracted. Cumulative totals are 5,584 confirmed cases including 2,680 deaths. The text states that since External Situation Report #14 there have been 563 new confirmed cases and 302 confirmed deaths. Affected health zones rose from 55 to 57 across six provinces, with Viadana (Bas-Uélé) and Mutwanga (Nord-Kivu) the most recently affected. The page gives no issue date and no as-of date for the cumulative figures; the related-publication listings mention October 2026 but are not dated to this text. Suspected cases and contacts under follow-up are not stated.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:38:00+00:00"
+}

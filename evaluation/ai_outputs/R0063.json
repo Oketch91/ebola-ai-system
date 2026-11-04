@@ -1,0 +1,15 @@
+{
+ "id": "R0063",
+ "totals": {
+  "confirmed_cases": 4665,
+  "deaths": 2184,
+  "suspected_cases": null,
+  "contacts_under_follow_up": null,
+  "as_of": "2026-08-12"
+ },
+ "report_date": "2026-08-14",
+ "notes": "Only one DRC case is described individually (Buta health zone). Confirmation date is not stated for this case, so the report date is used per the rules. The report otherwise gives aggregate figures only: 1,060 new confirmed cases and 597 new deaths since 1 August, 100 new cases in the last 24 hours, and at least 155 health-worker infections (45 deaths, 68 recoveries) as of 9 August. These aggregates are not individual case records and were not extracted. The 4,665 confirmed cases include two cases diagnosed in DRC and treated in Germany. Recoveries stated as 965 in DRC. The 'contacts under follow-up' figure is ambiguous: '17,460 seen out of 20,740 to follow up' refers to the proportion followed in the last 24 hours, not a clearly stated number of contacts currently under follow-up, so it is recorded as null. No suspected-case total is stated for DRC. The line list was empty, so all case records here are new.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:34:59+00:00"
+}

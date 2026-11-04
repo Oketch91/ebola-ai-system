@@ -1,0 +1,15 @@
+{
+ "id": "R0281",
+ "totals": {
+  "confirmed_cases": 5945,
+  "deaths": 2862,
+  "suspected_cases": null,
+  "contacts_under_follow_up": 25015,
+  "as_of": "2026-08-28"
+ },
+ "report_date": "2026-08-29",
+ "notes": "The line list is empty and the report gives only aggregate daily counts, not individual case records, so no new_cases records were created. In the 24 hours to 28 August 2026 the report lists 82 new confirmed cases (Ituri 66, Nord-Kivu 12, Haut-Uélé 4), of whom 24 were community deaths, plus 14 intra-CTE confirmed deaths (Ituri 10, Haut-Uélé 2, Bas-Uélé 1, Nord-Kivu 1). It also reports 9 recoveries (8 Ituri, 1 Nord-Kivu) without case identifiers. Because the line list is empty, these cannot be matched to case_ids and no outcome_updates were made. Report date is taken as the publication date (29 August 2026); the report's date de rapportage is 28 August 2026. suspected_cases is null: the 395 validated suspect alerts in Tableau 3 are a period/alert-status figure, not a stated cumulative suspected-case total. contacts_under_follow_up is taken from '21 109 vus sur 25 015 à suivre' (25,015 contacts to be followed); the report does not state this as an explicit cumulative total. Confirmed cases and deaths are the stated cumulative totals for the DRC as of 28 August 2026.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:37:18+00:00"
+}

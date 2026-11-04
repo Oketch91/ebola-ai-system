@@ -1,0 +1,15 @@
+{
+ "id": "R0264",
+ "totals": {
+  "confirmed_cases": 4566,
+  "deaths": 2128,
+  "suspected_cases": null,
+  "contacts_under_follow_up": 20728,
+  "as_of": "2026-08-11"
+ },
+ "report_date": "2026-08-11",
+ "notes": "The report (SitRep N°089, date of reporting 11 August 2026, published 12 August 2026) gives only aggregate figures by province and health zone, with no individual case records (no age, sex, setting, onset or confirmation date per case). No case-level records could be created. The 24-hour figures are 118 new confirmed cases (Ituri 98, Nord-Kivu 18, Haut-Uélé 2) and 67 deaths (50 community, 17 intra-CTE). Cumulative confirmed deaths are 2,128 and 918 patients have recovered; these are not linked to case_ids because the existing line list is empty. The 20,728 figure is the number of contacts to follow, with 82.4% follow-up in the last 24 hours (17,085 seen). The report does not give a cumulative suspected-case total, so suspected_cases is null. Only DRC data are included; the report covers Ituri, Nord-Kivu, Haut-Uélé, Tshopo and Sud-Kivu.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:34:50+00:00"
+}

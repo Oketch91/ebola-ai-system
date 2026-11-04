@@ -1,0 +1,15 @@
+{
+ "id": "R0019",
+ "totals": {
+  "confirmed_cases": 6186,
+  "deaths": 3007,
+  "suspected_cases": null,
+  "contacts_under_follow_up": null,
+  "as_of": "2026-08-31"
+ },
+ "report_date": "2026-11-04",
+ "notes": "Source is UKHSA Outbreaks Under Monitoring, week 35 (week ending 30 August 2026). The publication does not state a separate issue date, so report_date is null. The DRC figures are cumulative totals as of 31 August 2026: 6,186 confirmed cases and 3,007 confirmed deaths, with 530 confirmed cases and 292 deaths added since the last report. Cases are reported in 60 health zones across 6 provinces, and Ituri has 5,065 cases including 2,305 deaths. The report gives no individual case records (dates, settings, descriptions or outcomes), so no new cases can be line-listed and the existing line list (0 cases) cannot be matched or updated. Suspected cases and contacts under follow-up are not stated for DRC. The Uganda outbreak, the CCHF reports (Afghanistan, Austria) and the mpox report (Chile) are outside the DRC scope and were ignored. The report states that no imported cases have been reported in the UK.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:20:30+00:00"
+}

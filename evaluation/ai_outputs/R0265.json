@@ -1,0 +1,15 @@
+{
+ "id": "R0265",
+ "totals": {
+  "confirmed_cases": 4665,
+  "deaths": 2184,
+  "suspected_cases": null,
+  "contacts_under_follow_up": 20740,
+  "as_of": "2026-08-12"
+ },
+ "report_date": "2026-08-12",
+ "notes": "Report is SitRep N°090 (date de rapportage 12 August 2026, published 13 August 2026). The report gives aggregate new cases by province only (Ituri 67, Nord-Kivu 25, Haut-Uélé 6, Tshopo 1, Bas-Uélé 1; total 100), so individual records could not be extracted for these 99 cases. Only the Bas-Uélé (Buta) case has an individual description. Its confirm date is set to the report date because the report gives no specific lab date; its onset is the estimated date of symptom onset (DDS). Its death is recorded as a community death (swab-positive) in the 24-hour table, but no exact death date is given. The 'contacts_under_follow_up' figure is taken from the 24-hour contact figure ('20 740 à suivre'), which may not match the definition of currently followed contacts. Other 24-hour figures not captured as cases: 53 deaths (28 community, 25 intra-CTE); 47 recoveries (42 Ituri, 5 Nord-Kivu); cumulative recoveries 965; 634 patients in isolation/CTE. The line list was empty, so there were no existing records to update with outcomes.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:35:10+00:00"
+}

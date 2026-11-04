@@ -1,0 +1,15 @@
+{
+ "id": "R0254",
+ "totals": {
+  "confirmed_cases": 3360,
+  "deaths": 1487,
+  "suspected_cases": null,
+  "contacts_under_follow_up": 17588,
+  "as_of": "2026-07-27"
+ },
+ "report_date": "2026-07-28",
+ "notes": "The line list is empty, so the 3,360 cumulative confirmed cases cannot be matched to existing records. The report gives 98 new confirmed cases for the 24 hours to 27 July 2026, but only as zone-level counts with no individual details (age, sex, setting, onset, contact status), so no individual case records were created. Zone counts: Ituri 87 (Bunia 28, Mongbwalu 22, Rwampara 17, Kilo 5, Lita 4, Mandima 3, Nizi 3, Nia-Nia 2, Komanda 1, Mahagi 1, Tchomia 1); Nord-Kivu 11 (Butembo 2, Katwa 5, Beni 2, Musienene 2). Haut-Uélé, Tshopo and Sud-Kivu reported no new confirmed cases. The 50 new confirmed deaths (Ituri 31, Nord-Kivu 19 after harmonisation of +11) and 14 new recoveries (Ituri 13, Nord-Kivu 1) are also aggregate only. The 321 suspected cases are a daily figure with no cumulative suspected total, so suspected_cases is null. Contacts under follow-up are 17,588 (13,882 seen, 78.9%). The Nord-Kivu follow-up rate is 82.6% in Table 4 but 85.6% in the text; the table was used. The outbreak is Bundibugyo ebolavirus, declared 15 May 2026.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:33:25+00:00"
+}

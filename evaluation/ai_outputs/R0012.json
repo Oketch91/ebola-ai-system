@@ -1,0 +1,15 @@
+{
+ "id": "R0012",
+ "totals": {
+  "confirmed_cases": 2011,
+  "deaths": 754,
+  "suspected_cases": null,
+  "contacts_under_follow_up": null,
+  "as_of": "2026-07-13"
+ },
+ "report_date": "2026-07-13",
+ "notes": "The report gives DRC cumulative totals as of 13 July 2026 (2,011 confirmed cases, 754 confirmed deaths; Ituri 1,808, North Kivu 182, Haut-Uele 14, Tshopo 4, South Kivu 3) but no individual case records, so no line-list cases could be matched. The report date is not stated explicitly; 2026-07-13 is taken from the 'data as of' date, while the publication is the week 28 report (week ending 12 July 2026). The US citizen case is included as a new case because it was infected in the DRC, but the report does not say whether it is counted in the DRC cumulative totals, so it may be double-counted. Its onset, exposure setting and contact status are not stated. Uganda and other-country figures were ignored.",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:32:13+00:00"
+}

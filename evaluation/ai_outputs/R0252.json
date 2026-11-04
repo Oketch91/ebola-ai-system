@@ -1,0 +1,15 @@
+{
+ "id": "R0252",
+ "totals": {
+  "confirmed_cases": 3200,
+  "deaths": 1405,
+  "suspected_cases": null,
+  "contacts_under_follow_up": 15440,
+  "as_of": "2026-07-25"
+ },
+ "report_date": "2026-07-26",
+ "notes": "The report gives only aggregate figures for the 24 hours to 25 July 2026: 125 new confirmed cases (Ituri 115, Nord-Kivu 7, Haut-Uele 3), 51 new confirmed deaths and 15 recoveries. It contains no individual case records with onset, setting, age, sex or contact status, so no case records were created. The line list is empty, so no existing case could be matched for the outcome updates. The 340 suspected cases is a daily figure, not a cumulative total, so suspected_cases is null. contacts_under_follow_up is the 15,440 contacts under follow-up (12,010 seen, 77.8%). Cumulative totals are for DRC only, as of 25 July 2026, from SitRep N°072 (published 26 July 2026).",
+ "model": "claude-haiku-5-5",
+ "prompt_sha": "70edacae0b5b6875",
+ "run_utc": "2026-11-04T04:20:25+00:00"
+}
