@@ -40,8 +40,14 @@ jobs:
           git add data results
           if git diff --cached --quiet; then
             echo "No changes"
-          else
-            git commit -m "Automatic update $(date -u +'%Y-%m-%d %H:%M UTC')"
-            git pull --rebase
-            git push
+            exit 0
           fi
+          git commit -m "Automatic update $(date -u +'%Y-%m-%d %H:%M UTC')"
+          for attempt in 1 2 3 4 5; do
+            git pull --rebase && git push && exit 0
+            git rebase --abort 2>/dev/null || true
+            echo "Save failed (attempt $attempt); retrying in $((attempt * 30)) seconds"
+            sleep $((attempt * 30))
+          done
+          echo "Could not save after 5 attempts; the next scheduled run will try again"
+          exit 1
