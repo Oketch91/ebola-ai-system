@@ -50,12 +50,18 @@ Rules:
   of confirmation ("the third case") and the dates. Only when the match is clear; otherwise
   describe it in notes. outcome_date is the date of death or recovery, null if not stated.
 - Also report the cumulative totals for that country exactly as the report states them,
-  and the date the report was issued.
+  and the date the report was issued. Use these definitions:
+  confirmed_cases: laboratory-confirmed cases; deaths: deaths among confirmed cases;
+  suspected_cases: suspected cases (not probable cases); contacts_under_follow_up: contacts
+  currently followed; as_of: the date the figures refer to ("as of 11 October"), which may be
+  earlier than the report date. If the report gives only new figures for a period and no
+  cumulative total, use null.
 
 Reply with JSON only, no other text, in this form:
 {"report_date": "YYYY-MM-DD" or null,
  "report_totals": {"confirmed_cases": int or null, "deaths": int or null,
-                   "contacts_under_follow_up": int or null},
+                   "suspected_cases": int or null, "contacts_under_follow_up": int or null,
+                   "as_of": "YYYY-MM-DD" or null},
  "new_cases": [{"role": str, "setting": str, "confirm_date": "YYYY-MM-DD" or null,
                 "onset_date": "YYYY-MM-DD" or null, "listed_contact": str,
                 "outcome": "died" or "recovered" or null,

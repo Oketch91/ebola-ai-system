@@ -66,14 +66,23 @@ def discover(src: dict, max_items: int = 15):
         return [src["url"]]
     if src["type"] == "sequence":
         return _discover_sequence(src)
-    r = http_get(src["url"], src.get("verify_ssl", True))
     if src["type"] == "rss":
+        r = http_get(src["url"], src.get("verify_ssl", True))
         links = [i.findtext("link") for i in ET.fromstring(r.content).iter("item")]
     else:
-        soup = BeautifulSoup(r.text, "html.parser")
         pat = re.compile(src["link_pattern"])
-        links = [urljoin(src["url"], a["href"]) for a in soup.find_all("a", href=True)
-                 if pat.search(a["href"])]
+        links = []
+        for k in range(src.get("pages", 1)):           # older items are on ?page=1, 2, ...
+            url = src["url"] if k == 0 else f"{src['url']}{'&' if '?' in src['url'] else '?'}page={k}"
+            try:
+                soup = BeautifulSoup(http_get(url, src.get("verify_ssl", True)).text, "html.parser")
+            except Exception:
+                break
+            new = [urljoin(src["url"], a["href"]) for a in soup.find_all("a", href=True)
+                   if pat.search(a["href"])]
+            if not new:
+                break
+            links += new
     seen, out = set(), []
     for u in links:
         if u and u not in seen:
@@ -103,7 +112,8 @@ def _pdf_text(data: bytes) -> str:
 def fetch(url: str, source: str, verify: bool = True) -> Item:
     r = http_get(url, verify)
     ctype = r.headers.get("content-type", "")
-    if "pdf" in ctype or url.lower().endswith(".pdf"):
+    # some servers do not label PDFs correctly, so also recognise one by its first bytes
+    if r.content[:5] == b"%PDF-" or "pdf" in ctype or url.lower().split("?")[0].endswith(".pdf"):
         return Item(url, source, "pdf", _pdf_text(r.content), r.content,
                     hashlib.sha256(r.content).hexdigest())
     soup = BeautifulSoup(r.text, "html.parser")
