@@ -25,3 +25,5 @@
 2026-11-03 07:34 Pass complete: 0 relevant report(s), 0 case(s) added, 0 held, 0 outcome update(s); live line list holds 9 cases; 0 report(s) awaiting review
 2026-11-03 13:41 Pass complete: 0 relevant report(s), 0 case(s) added, 0 held, 0 outcome update(s); live line list holds 9 cases; 0 report(s) awaiting review
 2026-11-03 20:47 Pass complete: 0 relevant report(s), 0 case(s) added, 0 held, 0 outcome update(s); live line list holds 9 cases; 0 report(s) awaiting review
+2026-11-04 01:03 Pass complete: 0 relevant report(s), 0 case(s) added, 0 held, 0 outcome update(s); live line list holds 9 cases; 0 report(s) awaiting review
+2026-11-04 01:03 Estimates for 2026-11-04: 9 cases; Rc 0.14 (0.04-0.54); incubation 13.4 days; P(outbreak over) 0.77, 0.95 on 2026-11-26, 0.99 on 2026-12-18
