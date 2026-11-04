@@ -13,7 +13,8 @@ import shutil
 import pandas as pd
 
 from ebola.extraction import (apply_approved, apply_updates, auto_decide,
-                               auto_decide_updates, extract, review_in_console)
+                               auto_decide_updates, extract, fill_descriptions,
+                               resolve_deaths, review_in_console)
 
 MODE = "auto"              # "auto" or "full" (approve everything)
 ASK_ABOUT_HELD = False     # True: review held cases at the end
@@ -25,11 +26,13 @@ if os.path.exists(AUDIT):
     os.remove(AUDIT)
 
 held = []
+earlier = []                                   # texts of reports already read, for matching deaths
 for path in sorted(glob.glob("reports/????-??-??_*.txt")):
     name = os.path.basename(path)
     report_date, source = name[:10], name[11:].replace(".txt", "")
     ll = pd.read_csv(LINELIST, parse_dates=["confirm_date", "onset_date"])
-    p = extract(open(path, encoding="utf-8").read(), report_date, source, ll)
+    text = open(path, encoding="utf-8").read()
+    p = extract(text, report_date, source, ll)
     decided = auto_decide(p, ll, MODE)
     if not decided.empty:
         apply_approved(decided, p, LINELIST, AUDIT, "auto", verbose=False)
@@ -37,6 +40,17 @@ for path in sorted(glob.glob("reports/????-??-??_*.txt")):
     n_upd = apply_updates(upd, p, LINELIST, AUDIT, "auto")
     for _, u in upd[upd.get("decision", pd.Series(dtype=str)) == "hold"].iterrows():
         print(f"    outcome update held: {u['case_id']} {u['outcome']} ({u['issues']})")
+    gap = getattr(p, "death_gap", 0)
+    if gap:                                    # deaths stated but not matched: ask again with earlier reports
+        r = resolve_deaths(text, earlier, pd.read_csv(LINELIST), gap)
+        if r["deaths"]:
+            n_upd += apply_updates(pd.DataFrame([{"case_id": d["case_id"], "outcome": "died",
+                                                  "outcome_date": d.get("outcome_date") or "",
+                                                  "evidence": d.get("evidence", ""), "issues": "",
+                                                  "decision": "approve"} for d in r["deaths"]]),
+                                   p, LINELIST, AUDIT, "auto")
+        fill_descriptions(r["descriptions"], LINELIST)
+    earlier.append({"date": report_date, "source": source, "text": text})
     n_ok = int((decided["decision"] == "approve").sum()) if not decided.empty else 0
     n_hold = len(decided) - n_ok
     print(f"{report_date} {source}: {len(decided)} new, {n_ok} added, {n_hold} held, "
