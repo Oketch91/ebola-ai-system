@@ -1,0 +1,10 @@
+{
+ "url": "https://titan.img.cas.cz/ebola/data/drc-bdbv-sitrep-timeseries.csv",
+ "downloaded_utc": "2026-11-03T19:57:02+00:00",
+ "sha256": "b8f50e052c64f8806a09374d2d764e33684d6c399b7c1178cb367ba88ef62732",
+ "rows": 87,
+ "first_date": "2026-05-30",
+ "last_date": "2026-08-31",
+ "licence": "CC BY 4.0",
+ "citation": "Pačes J, Liegertová M. Ebola caused by Bundibugyo virus, 2026: case and death trajectory chart. Institute of Molecular Genetics of the Czech Academy of Sciences."
+}

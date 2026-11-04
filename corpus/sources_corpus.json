@@ -1,0 +1,132 @@
+[
+ {
+  "name": "WHO DON series (evaluation)",
+  "type": "sequence",
+  "url_template": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON{n}",
+  "start": 602,
+  "max_gap": 4,
+  "max_items": 200,
+  "note": "DON602 (16 May 2026) is the first on this outbreak. Separate name from the live watcher's source, so they keep separate progress"
+ },
+ {
+  "name": "WHO emergency event page",
+  "type": "page",
+  "pages": 1,
+  "max_items": 200,
+  "url": "https://www.who.int/emergencies/emergency-events/item/2026-e000253",
+  "link_pattern": "/disease-outbreak-news/item/2026-DON\\d+",
+  "note": "Lists every Disease Outbreak News on this outbreak"
+ },
+ {
+  "name": "UKHSA outbreaks under monitoring",
+  "type": "page",
+  "pages": 1,
+  "max_items": 200,
+  "url": "https://www.gov.uk/government/publications/outbreaks-under-monitoring-in-2026",
+  "link_pattern": "/outbreaks-under-monitoring-in-2026/outbreaks-under-monitoring-week-\\d+"
+ },
+ {
+  "name": "ECDC event updates",
+  "type": "page",
+  "pages": 1,
+  "max_items": 200,
+  "url": "https://www.ecdc.europa.eu/en/public-health-events/2026-eip-00026",
+  "link_pattern": "/public-health-events/2026-eip-00026/2026-\\d\\d-\\d\\d"
+ },
+ {
+  "name": "WHO AFRO Kenya news",
+  "type": "page",
+  "pages": 5,
+  "max_items": 200,
+  "url": "https://afro.who.int/countries/kenya/news",
+  "link_pattern": "/countries/kenya/news/[a-z0-9-]+$"
+ },
+ {
+  "name": "WHO AFRO Uganda news",
+  "type": "page",
+  "pages": 10,
+  "max_items": 200,
+  "url": "https://afro.who.int/countries/uganda/news",
+  "link_pattern": "/countries/uganda/news/[a-z0-9-]+$"
+ },
+ {
+  "name": "WHO AFRO Nigeria news",
+  "type": "page",
+  "pages": 5,
+  "max_items": 200,
+  "url": "https://www.afro.who.int/countries/nigeria/news",
+  "link_pattern": "/countries/nigeria/news/[a-z0-9-]+$"
+ },
+ {
+  "name": "WHO AFRO Uganda publications",
+  "type": "page",
+  "pages": 10,
+  "max_items": 300,
+  "url": "https://afro.who.int/countries/uganda/publications",
+  "link_pattern": "/publications/[a-z0-9-]+$",
+  "note": "Weekly External Situation Reports covering the DRC and Uganda"
+ },
+ {
+  "name": "WHO AFRO Uganda publications (French site)",
+  "type": "page",
+  "pages": 10,
+  "max_items": 300,
+  "url": "https://afro.who.int/fr/countries/uganda/publications",
+  "link_pattern": "/fr/(publications/[a-z0-9-]+|node/\\d+)$",
+  "note": "Same reports via the French site; pages already collected are skipped"
+ },
+ {
+  "name": "WHO AFRO DRC news",
+  "type": "page",
+  "pages": 10,
+  "max_items": 300,
+  "url": "https://www.afro.who.int/countries/democratic-republic-of-congo/news",
+  "link_pattern": "/countries/democratic-republic-of-congo/news/[a-z0-9-]+$"
+ },
+ {
+  "name": "WHO AFRO DRC news (French)",
+  "type": "page",
+  "pages": 10,
+  "max_items": 300,
+  "url": "https://www.afro.who.int/fr/countries/democratic-republic-of-congo/news",
+  "link_pattern": "/countries/democratic-republic-of-congo/news/[a-z0-9-]+$"
+ },
+ {
+  "name": "WHO AFRO situation reports",
+  "type": "page",
+  "pages": 15,
+  "max_items": 400,
+  "url": "https://www.afro.who.int/publications",
+  "link_pattern": "/publication/(ebola-bundibugyo|[a-z0-9-]*ebola)[a-z0-9-]*$",
+  "follow_pattern": "iris\\.who\\.int/bitstreams/[^/]+/download",
+  "note": "Weekly External Situation Reports; the full PDF on WHO IRIS is collected as well"
+ },
+ {
+  "name": "WHO AFRO DRC publications",
+  "type": "page",
+  "pages": 10,
+  "max_items": 300,
+  "url": "https://www.afro.who.int/countries/democratic-republic-of-congo/publications",
+  "link_pattern": "/publication/(ebola-bundibugyo|[a-z0-9-]*ebola)[a-z0-9-]*$",
+  "follow_pattern": "iris\\.who\\.int/bitstreams/[^/]+/download"
+ },
+ {
+  "name": "WHO AFRO DRC publications (second address)",
+  "type": "page",
+  "pages": 10,
+  "max_items": 300,
+  "url": "https://www.afro.who.int/countries/democratic-republic-congo/publications",
+  "link_pattern": "/publication/(ebola-bundibugyo|[a-z0-9-]*ebola)[a-z0-9-]*$",
+  "follow_pattern": "iris\\.who\\.int/bitstreams/[^/]+/download",
+  "note": "WHO AFRO also files DRC reports under this address"
+ },
+ {
+  "name": "WHO AFRO emergencies updates",
+  "type": "page",
+  "pages": 5,
+  "max_items": 300,
+  "url": "https://www.afro.who.int/outbreaks-and-emergencies-updates",
+  "link_pattern": "/publication/(ebola-bundibugyo|[a-z0-9-]*ebola)[a-z0-9-]*$",
+  "follow_pattern": "iris\\.who\\.int/bitstreams/[^/]+/download"
+ }
+]
