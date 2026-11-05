@@ -32,3 +32,5 @@
 2026-11-05 01:19 Kenya News Agency (government): could not download https://www.kenyanews.go.ke/governor-directs-hospitals-to-provide-emergency-care-unconditionally/ (ReadTimeout)
 2026-11-05 01:19 Pass complete: 0 relevant report(s), 0 case(s) added, 0 held, 0 outcome update(s); live line list holds 9 cases; 0 report(s) awaiting review
 2026-11-05 01:19 Estimates for 2026-11-05: 9 cases; Rc 0.14 (0.05-0.53); incubation 13.3 days; P(outbreak over) 0.78, 0.95 on 2026-11-25, 0.99 on 2026-12-18
+2026-11-05 10:23 WHO Disease Outbreak News: could not read source (ReadTimeout)
+2026-11-05 10:24 Pass complete: 0 relevant report(s), 0 case(s) added, 0 held, 0 outcome update(s); live line list holds 9 cases; 0 report(s) awaiting review
