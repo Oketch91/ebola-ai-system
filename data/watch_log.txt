@@ -47,3 +47,5 @@
 2026-11-07 17:27 Kenya News Agency (government) 2026-11-07: 0 new case(s) found, 0 added, 0 held, 0 outcome update(s); stated total None, deaths None
 2026-11-07 17:27 Pass complete: 1 relevant report(s), 0 case(s) added, 0 held, 0 outcome update(s); live line list holds 9 cases; 0 report(s) awaiting review
 2026-11-07 21:28 Pass complete: 0 relevant report(s), 0 case(s) added, 0 held, 0 outcome update(s); live line list holds 9 cases; 0 report(s) awaiting review
+2026-11-08 04:33 Pass complete: 0 relevant report(s), 0 case(s) added, 0 held, 0 outcome update(s); live line list holds 9 cases; 0 report(s) awaiting review
+2026-11-08 04:33 Estimates for 2026-11-08: 9 cases; Rc 0.13 (0.04-0.51); incubation 13.3 days; P(outbreak over) 0.82, 0.95 on 2026-11-26, 0.99 on 2026-12-20
