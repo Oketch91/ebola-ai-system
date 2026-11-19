@@ -107,3 +107,5 @@
 2026-11-19 02:17 Kenya News Agency (government): could not read source (ReadTimeout)
 2026-11-19 02:17 Pass complete: 0 relevant report(s), 0 case(s) added, 0 held, 0 outcome update(s); live line list holds 9 cases; 0 report(s) awaiting review
 2026-11-19 02:17 Estimates for 2026-11-19: 9 cases; Rc 0.13 (0.04-0.51); incubation 13.3 days; P(outbreak over) 0.92, 0.95 on 2026-11-26, 0.99 on 2026-12-18
+2026-11-19 11:10 Kenya News Agency (government): could not download https://www.kenyanews.go.ke/%f0%9d%90%86%f0%9d%90%a8%f0%9d%90%af%f0%9d%90%9e%f0%9d%90%ab%f0%9d%90%a7%f0%9d%90%a8%f0%9d%90%ab-%f0%9d%90%92%f0%9d%90%9a%f0%9d%90%a4%f0%9d%90%9a%f0%9d%90%a3%f0%9d%90%9a-%f0%9d%90%9c%f0%9d%90%9a/ (ReadTimeout)
+2026-11-19 11:12 Pass complete: 0 relevant report(s), 0 case(s) added, 0 held, 0 outcome update(s); live line list holds 9 cases; 0 report(s) awaiting review
