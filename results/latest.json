@@ -1,6 +1,6 @@
 {
- "cutoff": "2026-11-24",
- "day": 52,
+ "cutoff": "2026-11-25",
+ "day": 53,
  "cases": 9,
  "secondary_household": 4,
  "secondary_healthcare": 4,
@@ -24,13 +24,12 @@
  "rhat_max": 1.002,
  "contact_alerts": 0,
  "last_onset": "2026-10-18",
- "days_since_last_onset": 37,
- "P_over_today": 0.945,
+ "days_since_last_onset": 38,
+ "P_over_today": 0.948,
  "P_over_at_42_days": 0.962,
  "date_P_over_095": "2026-11-26",
  "date_P_over_099": "2026-12-18",
  "curve_days": [
-  37,
   38,
   39,
   40,
@@ -86,7 +85,6 @@
   90
  ],
  "curve_p": [
-  0.9447,
   0.9481,
   0.9523,
   0.9549,
